@@ -12,8 +12,4 @@
 
 <p>By small to medium businesses I mean that a hosting plan that won't exceed USD 120 (the maximum for it) per month would be more than enough for the app operations to run smoothly.</p>
 
-<div align="right">
-  <a href="https://twitter.com/Rhman_Al_Warraq">
-    <img src="https://skillicons.dev/icons?i=twitter"/>
-  </a>
-</div>
+[![Twitter](https://skillicons.dev/icons?i=twitter)](https://twitter.com/Rhman_Al_Warraq")
