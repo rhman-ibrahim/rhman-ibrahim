@@ -14,7 +14,7 @@
   <div>
     <h2>💻 Working Now On <b>Scheme</b>.</h2>
     <p>A text based social space where users add their friends, follow new people, create and manage circles, post and chat using texts only, and no media at all.</p>
-    <a href="https://github.com/rhman-ibrahim/scheme">
+    <a href="https://github.com/rhman-ibrahim/scheme" target="_blank">
       <img src="https://skillicons.dev/icons?i=github" />
     </a>
   </div>
