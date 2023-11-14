@@ -12,11 +12,8 @@
 </header>
 <main>
   <div>
-    <h2>💻 Working Now On <b>Scheme</b>.</h2>
+    <h2>💻 Working Now On <b>Context</b>.</h2>
     <p>It is a text based social space where users add their friends, follow new people, create and manage circles, post, poll and chat using texts only, and no media at all.</p>
-    <a href="https://github.com/rhman-ibrahim/scheme" target="_blank">
-      <img src="https://skillicons.dev/icons?i=github" />
-    </a>
   </div>
   <div>
     <h2>🎻 Interests and hobbies.</h2>
