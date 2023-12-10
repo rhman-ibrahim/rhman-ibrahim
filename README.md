@@ -1,5 +1,5 @@
 <header>
-  <h1>🌐 Hello, World!</h1>
+  <h1>Hello, World! 🌐</h1>
   <ul>
     <li>Graduated from faculty of managerial and financial studies, Alexandria university, Egypt with a <b>bachelor degree in accounting</b>.</li>
     <li>Lack of success in getting into a college related to computer science did not stop me from learning what I want to learn, and this is something I'm really proud of.</li>
@@ -18,19 +18,19 @@
 </header>
 <main>
   <div>
-    <h2>💻 Now, I'm working on <b>Scheme</b>.</h2>
+    <h2>Now, I'm working on <b>Scheme</b>. 💻</h2>
     <p>Scheme is the name I choosed for my development ecosystem I dream to build; this ecosystem will provide full stack templates for web projects, modules to manage common tasks, bash scripts for automation.</p>
 <a href="https://github.com/rhman-ibrahim/scheme" target="_blank">
       <img src="https://skillicons.dev/icons?i=github" />
     </a>
   </div>
   <div>
-    <h2>🎻 Interests and hobbies.</h2>
+    <h2>Interests and hobbies. 🎻 </h2>
     <p>Enjoy reading, watching and playing chess matches, also have a dream of being a violinist, so recently I started training on learning playing the violin.</p>
   </div>
 </main>
 <footer>
-  <h2>👋🏾 Find Me!</h2>
+  <h2>Find Me! 👋🏾</h2>
   <p>Would love to connect to web developers who are interested on working on new projects together.</p>
   <a href="https://twitter.com/Rhman_Al_Warraq">
     <img src="https://skillicons.dev/icons?i=twitter" />
