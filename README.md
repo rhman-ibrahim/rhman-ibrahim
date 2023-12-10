@@ -19,7 +19,7 @@
 <main>
   <div>
     <h2>💻 Now, I'm working on <b>Scheme</b>.</h2>
-    <p>Scheme is the name I choosed for my development ecosystem I dream to build; this ecosystem will provide full stack templates for web projects, modules to manage common tasks, bash scripts for automation.</p>
+    <p>Scheme is the name I chose for my development ecosystem I dream to build; this ecosystem will provide full stack templates for web projects, modules to manage common tasks, bash scripts for automation.</p>
 <a href="https://github.com/rhman-ibrahim/scheme" target="_blank">
       <img src="https://skillicons.dev/icons?i=github" />
     </a>
