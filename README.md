@@ -7,11 +7,22 @@
     <li>Then, I studied <b>HTML, CSS</b> to break the ice and gain more confidence, then <b>JavaScript</b> and <b>Python</b> and started the journey of being a full stack web developer.</li>
     <li>Also, studied <b>Django and React</b> and decided to adopt them in building all of my next projects, and this won't stop me to crave to learn more.</li>
   </ul>
+  <div>
+    <a href="https://www.djangoproject.com/" target="_blank">
+      <img src="https://skillicons.dev/icons?i=django" />
+    </a>
+    <a href="https://react.dev/" target="_blank">
+      <img src="https://skillicons.dev/icons?i=react" />
+    </a>
+  </div>
 </header>
 <main>
   <div>
     <h2>💻 Now, I'm working on <b>Scheme</b>.</h2>
     <p>Scheme is the name I choosed for my development ecosystem I dream to build; this ecosystem will provide full stack templates for web projects, modules to manage common tasks, bash scripts for automation.</p>
+<a href="https://github.com/rhman-ibrahim/scheme" target="_blank">
+      <img src="https://skillicons.dev/icons?i=react" />
+    </a>
   </div>
   <div>
     <h2>🎻 Interests and hobbies.</h2>
