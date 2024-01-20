@@ -12,19 +12,16 @@
   </div>
   <div>
     <h2>💻 Now, I'm working on <b>Scheme</b>.</h2>
-    <p>Scheme is the name I chose for my boilerplate code package; this package has 2 versions (Django version and React version) will provide full stack modules for web projects to manage common tasks in both of back-end and front-end.</p>
+    <ul>
+      <li>Scheme is the name I chose for my boilerplate code package; this package has 2 versions (Django version and React version) will provide full stack modules for web projects to manage common tasks in both of back-end and front-end.</li>
+      <li>The purpose of these versions is to be used as submodules in the next projects I'm going to build using Django and React.</li>
+    </ul>
   </div>
 </main>
 <footer>
-  <div>
-    <h2>🎻 Interests and hobbies.</h2>
-    <p>Enjoy reading, watching and playing chess matches, also have a dream of being a violinist, so recently I started practicing playing the violin.</p>
-  </div>
-  <div>
-    <h2>👋🏾 Find Me!</h2>
-    <p>Would love to connect to web developers who are interested in working on new projects together.</p>
-    <a href="https://twitter.com/Rhman_Al_Warraq">
-      <img src="https://skillicons.dev/icons?i=twitter" />
-    </a>
-  </div>
+    <h2>👋🏾 About Me.</h2>
+    <ul>
+      <li>Enjoy reading, watching and playing chess matches, also have a dream of being a violinist, so recently I started practicing playing the violin. 🎻</li>
+      <li>Would love to connect to web developers who are interested in working on new projects together, just say hi! on <a href="https://twitter.com/Rhman_Al_Warraq"><img src="https://skillicons.dev/icons?i=twitter" /></a>.</li>
+    </ul>
 </footer>
