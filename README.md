@@ -6,7 +6,7 @@
   <div>
     <h2>🎯 My Goal</h2>
     <ul>
-      <li>In the heart of Alexandria, Egypt, where my journey in programming unfolded, I now stand on the precipice of founding '<b>Civic</b>,' a web agency born from my unwavering dedication. Armed with a newfound expertise as a full-stack web developer, I aspire to make a profound impact on my beloved city. '<b>Civic</b>' is not just a venture; it's a commitment to digital transformation and automation.</li>
+      <li id="civic">In the heart of Alexandria, Egypt, where my journey in programming unfolded, I now stand on the precipice of founding '<b>Civic</b>,' a web agency born from my unwavering dedication. Armed with a newfound expertise as a full-stack web developer, I aspire to make a profound impact on my beloved city. '<b>Civic</b>' is not just a venture; it's a commitment to digital transformation and automation.</li>
       <li>With the ambitious goal of building 100 web projects in Alexandria, I aim to revolutionize and streamline diverse processes within the city. My vision extends beyond geographical boundaries; I envision '<b>Civic</b>' as a catalyst for positive change, first locally and then globally. Each project will be a testament to my passion and a step towards establishing myself as one of the finest full-stack web developers, contributing to a future where technology empowers and transforms communities.</li>
     </ul>
   </div>
