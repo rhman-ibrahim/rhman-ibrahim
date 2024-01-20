@@ -1,5 +1,5 @@
 <header>
-  <h1>Hello, World! 🌐</h1>
+  <h1>🌐 Hello, World!</h1>
   <p>In Alexandria, Egypt, before earning a bachelor degree in accounting, I faced a roadblock in pursuing my dream of computer science. Undeterred, I embraced the challenge as an opportunity to carve my own path. From grappling with Java, C and to mastering HTML, CSS with PHP to finally JavaScript, and Python, I evolved into a full-stack web developer. My journey didn't stop there; I delved into Django and React, choosing them as the cornerstones for my future projects. Every setback fueled my passion, turning each line of code into a testament to my dedication. The story is far from over—my thirst for knowledge and the thrill of constant learning continue to propel me forward on this enchanting journey.</p>
 </header>
 <main>
