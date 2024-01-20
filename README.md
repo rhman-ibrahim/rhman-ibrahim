@@ -22,6 +22,9 @@
     <h2>👋🏾 About Me.</h2>
     <ul>
       <li>Enjoy reading, watching and playing chess matches, also have a dream of being a violinist, so recently I started practicing playing the violin. 🎻</li>
-      <li>Would love to connect to web developers who are interested in working on new projects together, just say hi! on <a href="https://twitter.com/Rhman_Al_Warraq"><img src="https://skillicons.dev/icons?i=twitter" /></a>.</li>
+      <li>Would love to connect to web developers who are interested in working on new projects together, just say hi! on <a href="https://twitter.com/Rhman_Al_Warraq">Twitter</a>.</li>
     </ul>
+    <a href="https://twitter.com/Rhman_Al_Warraq">
+      <img src="https://skillicons.dev/icons?i=twitter" />
+    </a>
 </footer>
