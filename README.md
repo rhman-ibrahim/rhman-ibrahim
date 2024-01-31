@@ -4,7 +4,7 @@
         <p>In Alexandria, Egypt, before earning a bachelor degree in accounting, I faced a roadblock in pursuing my dream of joining a computer science university. Undeterred, I embraced the challenge as an opportunity to carve my own path. From grappling with Java, C and to mastering HTML, CSS with PHP to finally JavaScript, and Python, I evolved into <strong>a full-stack web developer</strong>. My journey didn't stop there; I delved into <strong>Django (DRF)</strong> and <strong>React</strong>, choosing them as the cornerstones for my future projects. Every setback fueled my passion, turning each line of code into a testament to my dedication. The story is far from over—my thirst for knowledge and the thrill of constant learning continue to propel me forward on this enchanting journey.</p>
     </div>
     <div>
-        <h2>✨ Why Web Development</h2>
+        <h2>✨ Why Web Development.</h2>
         <p>Web technologies, encompassing websites and web applications, are pivotal due to their global accessibility, enabling users worldwide to connect effortlessly. Their convenience, scalability, and cost-effectiveness make them indispensable, allowing seamless access across diverse devices and platforms while fostering engagement through interactive features. Additionally, web technologies encourage innovation and flexibility, driving continuous improvement and collaboration within the development community. With their inherent cross-platform compatibility and emphasis on accessibility, they facilitate inclusivity and ensure equitable access to information and services, shaping modern communication, commerce, education, and entertainment paradigms.</p>
     </div>
     <div>
