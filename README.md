@@ -1,30 +1,43 @@
 <header>
-  <h1>🌐 Hello, World!</h1>
-  <p>In Alexandria, Egypt, before earning a bachelor degree in accounting, I faced a roadblock in pursuing my dream of computer science. Undeterred, I embraced the challenge as an opportunity to carve my own path. From grappling with Java, C and to mastering HTML, CSS with PHP to finally JavaScript, and Python, I evolved into a full-stack web developer. My journey didn't stop there; I delved into Django and React, choosing them as the cornerstones for my future projects. Every setback fueled my passion, turning each line of code into a testament to my dedication. The story is far from over—my thirst for knowledge and the thrill of constant learning continue to propel me forward on this enchanting journey.</p>
+    <div>
+        <h1>🌐 A full-stack web developer.</h1>
+        <p>In Alexandria, Egypt, before earning a bachelor degree in accounting, I faced a roadblock in pursuing my dream of joining a computer science university. Undeterred, I embraced the challenge as an opportunity to carve my own path. From grappling with Java, C and to mastering HTML, CSS with PHP to finally JavaScript, and Python, I evolved into <strong>a full-stack web developer</strong>. My journey didn't stop there; I delved into <strong>Django (DRF)</strong> and <strong>React</strong>, choosing them as the cornerstones for my future projects. Every setback fueled my passion, turning each line of code into a testament to my dedication. The story is far from over—my thirst for knowledge and the thrill of constant learning continue to propel me forward on this enchanting journey.</p>
+    </div>
+    <div>
+        <h2>✨ Why Web Development</h2>
+        <p>Web technologies, encompassing websites and web applications, are pivotal due to their global accessibility, enabling users worldwide to connect effortlessly. Their convenience, scalability, and cost-effectiveness make them indispensable, allowing seamless access across diverse devices and platforms while fostering engagement through interactive features. Additionally, web technologies encourage innovation and flexibility, driving continuous improvement and collaboration within the development community. With their inherent cross-platform compatibility and emphasis on accessibility, they facilitate inclusivity and ensure equitable access to information and services, shaping modern communication, commerce, education, and entertainment paradigms.</p>
+    </div>
+    <div>
+        <h2>💰 Web Development Market Size.</h2>
+        <p>The global web development market size was <strong>USD 56,000,000,000 (56 Thousand Million US Dollars)</strong> in <strong>2021</strong>. As per <a href="https://www.businessresearchinsights.com/market-reports/web-development-market-109039" target="_blank"><strong>Business Research INSIGHTS</strong></a>, the market is expected to reach <strong>USD 89,013,000,000 (89 Thousand Million)</strong> by <strong>2027</strong>, exhibiting a compound annual growth rate of 8.03% during the forecast period.</p>
+    </div>
 </header>
 <main>
-  <div>
-    <h2>🎯 My Goal</h2>
-    <ul>
-      <li id="civic">In the heart of Alexandria, Egypt, where my journey in programming unfolded, I now stand on the precipice of founding '<b>Civic</b>,' a web agency born from my unwavering dedication. Armed with a newfound expertise as a full-stack web developer, I aspire to make a profound impact on my beloved city. '<b>Civic</b>' is not just a venture; it's a commitment to digital transformation and automation.</li>
-      <li>With the ambitious goal of building 100 web projects in Alexandria, I aim to revolutionize and streamline diverse processes within the city. My vision extends beyond geographical boundaries; I envision '<b>Civic</b>' as a catalyst for positive change, first locally and then globally. Each project will be a testament to my passion and a step towards establishing myself as one of the finest full-stack web developers, contributing to a future where technology empowers and transforms communities.</li>
-    </ul>
-  </div>
-  <div>
-    <h2>💻 Now, I'm working on <b>Scheme</b>.</h2>
-    <ul>
-      <li>Scheme is the name I chose for my boilerplate code package; this package has 2 versions (Django version and React version) will provide full stack modules for web projects to manage common tasks in both of back-end and front-end.</li>
-      <li>The purpose of these versions is to be used as submodules in the next projects I'm going to build using Django and React.</li>
-    </ul>
-  </div>
+    <div>
+        <h2>🧠 Now, I'm working on <strong>Scheme</strong>.</h2>
+        <ul>
+            <li><strong>Scheme</strong> is my foundation upon which I construct web projects, based on Python (Django/DRF) for the back-end and JavaScript (React/Vite) for the front-end, alongside with Bash scripts to automate general project tasks. The content of Scheme will be divided into 5 repositories: <strong>scheme</strong>, <strong>sch-py</strong>, <strong>sch-js</strong>, <strong>sch-sh</strong> and <strong>sch-cf</strong>.</li>
+            <li><a href="https://github.com/rhman-ibrahim/scheme"><strong>scheme</strong></a> describes and summarize how to use.</li>
+            <li><a href="https://github.com/rhman-ibrahim/sch-py"><strong>sch-py</strong></a> repository stores the project's back-end code which is built using Django and DRF, this code manages the database models, API endpoints, validation, error handling and more.</li>
+            <li><a href="https://github.com/rhman-ibrahim/sch-js"><strong>sch-js</strong></a> repository stores the project's front-end code which is built using React and Vite, this code manages the user interface components, API requests, display language and more.</li>
+            <li><a href="https://github.com/rhman-ibrahim/sch-sh"><strong>sch-sh</strong></a> repository stores the project's automation scripts which is written using Bash, these scripts automate general tasks.</li>
+            <li><a href="https://github.com/rhman-ibrahim/sch-cf"><strong>sch-cf</strong></a> repository stores the project's entry point (HTML file) and the configurarion files.</li>
+        </ul>
+    </div>
+    <div>
+        <h2>🎯 My Goal</h2>
+        <ul>
+            <li>Meet and communicate with different people from all over the globe to work on different projects to gain and add value, knowledge and experience.</li>
+            <li id="civic">Founding '<strong>Civic</strong>' in the heart of Alexandria, Egypt; a web agency digital transformation and automation born from my unwavering dedication. I aspire to make a profound impact on my beloved city.</li>
+            <li>Building at least 100+ web projects in Alexandria, I aim to revolutionize and streamline diverse processes within the city. My vision extends beyond geographical boundaries; I envision '<strong>Civic</strong>' as a catalyst for positive change, first locally and then globally.</li>
+        </ul>
+        <p>Hope to make each project a testament to my passion and a step towards establishing myself as one of the finest full-stack web developers, contributing to a future where technology empowers and transforms communities.</p>
+    </div>
 </main>
 <footer>
     <h2>👋🏾 About Me.</h2>
     <ul>
-      <li>Enjoy reading, watching and playing chess matches, also have a dream of being a violinist, so recently I started practicing playing the violin. 🎻</li>
-      <li>Would love to connect to web developers who are interested in working on new projects together, just say hi! on <a href="https://twitter.com/Rhman_Al_Warraq">Twitter</a>.</li>
+        <li>Enjoy reading, watching and playing chess matches, also have a dream of being a violinist, so recently I started practicing playing the violin 🎻.</li>
+        <li>Would love to connect to web developers who are interested in working on new projects together, just say hi! on <a href="https://twitter.com/Rhman_Al_Warraq"><strong>X</strong></a> 🤙🏾.</li>
     </ul>
-    <a href="https://twitter.com/Rhman_Al_Warraq">
-      <img src="https://skillicons.dev/icons?i=twitter" />
-    </a>
 </footer>
