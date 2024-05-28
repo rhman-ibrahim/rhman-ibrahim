@@ -16,12 +16,8 @@
     <div>
         <h2>🧠 Now, I'm working on <strong>Scheme</strong>.</h2>
         <ul>
-            <li><strong>Scheme</strong> is my foundation upon which I construct web projects, based on Python (Django/DRF) for the back-end and JavaScript (React/Vite) for the front-end, alongside with Bash scripts to automate general project tasks. The content of Scheme will be divided into 5 repositories: <strong>scheme</strong>, <strong>sch-py</strong>, <strong>sch-js</strong>, <strong>sch-sh</strong> and <strong>sch-cf</strong>.</li>
-            <li><a href="https://github.com/rhman-ibrahim/scheme"><strong>scheme</strong></a> describes and summarize how to use.</li>
-            <li><a href="https://github.com/rhman-ibrahim/sch-py"><strong>sch-py</strong></a> repository stores the project's back-end code which is built using Django and DRF, this code manages the database models, API endpoints, validation, error handling and more.</li>
-            <li><a href="https://github.com/rhman-ibrahim/sch-js"><strong>sch-js</strong></a> repository stores the project's front-end code which is built using React and Vite, this code manages the user interface components, API requests, display language and more.</li>
-            <li><a href="https://github.com/rhman-ibrahim/sch-sh"><strong>sch-sh</strong></a> repository stores the project's automation scripts which is written using Bash, these scripts automate general tasks.</li>
-            <li><a href="https://github.com/rhman-ibrahim/sch-cf"><strong>sch-cf</strong></a> repository stores the project's entry point (HTML file) and the configurarion files.</li>
+            <li><strong>Scheme</strong> is my foundation upon which I construct web projects, based on Python (Django/DRF) for the back-end and JavaScript (React/Vite) for the front-end, alongside with Bash scripts to automate general project tasks.
+            </li>
         </ul>
     </div>
     <div>
