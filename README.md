@@ -55,15 +55,15 @@
 
 |Index|Repository|Description|
 |--|--|--|
-|01|sch.stamps|--|
-|02|api.authen|--|
-|03|api.author|--|
-|04|api.relate|--|
-|05|sch.assets|--|
-|06|sch.blocks|--|
-|07|sch.fields|--|
-|08|sch.notify|--|
-|09|ui.scheme|--|
-|10|ui.authen|--|
-|11|ui.author|--|
-|12|ui.relate|--|
+|01|sch.stamps|A Python/Django package that provides abstract models, and helper mixins and functions for the back-end.|
+|02|api.authen|A Django/DRF authentication application that manages account credentials, profile information using JWT tokens.|
+|03|api.author|A Django/DRF authorization application that manages user roles, authorization permissions and groups.|
+|04|api.relate|A Django/Channels application that manages real time events, adds messaging functionality to users and create polls.|
+|05|sch.assets|A CSS files container, reset, theme and font style sheets alongside with favions.|
+|06|sch.blocks|A JavaScript, React (Vite) components library which is used to build a responsive flex layout.|
+|07|sch.fields|A JavaScript, React (Vite) components library which provides styled form and input components.|
+|08|sch.notify|A JavaScript, React (Vite) components library which provies notifications management.|
+|09|ui.scheme|A React template with *sch.assests* defined, *sch.blocks*, *sch.fields* and *sch.notify* installed.|
+|10|ui.authen|A user interface for *api.authen*, also it provides authentication custom hooks to manage the state and fetch data.|
+|11|ui.author|A user interface for *api.author*.|
+|12|ui.relate|A user interface for *api.author*.|
