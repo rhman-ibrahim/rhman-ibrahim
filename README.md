@@ -46,24 +46,26 @@
 
 - Creating and using **`Scheme`** my own concept/full-stack code base/business, working with a team of passionate developers, listen to each other stories and achieve success together.
 
-## Scheme
+---
+
+# Scheme
 
 **`Scheme`** is a foundational codebase, built with Python (Django/DRF) and JavaScript (React/Vite), designed to streamline web project development. By adopting a modular approach with specialized repositories, it enhances code maintainability, scalability, and development efficiency. Continuously refines through testing and development.
 
 ![Scheme's structure.](Scheme.png)
 [![Tools](https://skillicons.dev/icons?i=html,css,python,django,postgres,js,react)](https://skillicons.dev)
 
-|Index|Repository|Description|
-|--|--|--|
-|01|sch.stamps|A Python/Django package that provides abstract models, and helper mixins and functions for the back-end.|
-|02|api.authen|A Django/DRF authentication application that manages account credentials, profile information using JWT tokens.|
-|03|api.author|A Django/DRF authorization application that manages user roles, authorization permissions and groups.|
-|04|api.relate|A Django/Channels application that manages real time events, adds messaging functionality to users and create polls.|
-|05|sch.assets|A CSS files container, reset, theme and font style sheets alongside with favions.|
-|06|sch.blocks|A JavaScript, React (Vite) components library which is used to build a responsive flex layout.|
-|07|sch.fields|A JavaScript, React (Vite) components library which provides styled form and input components.|
-|08|sch.notify|A JavaScript, React (Vite) components library which provies notifications management.|
-|09|ui.scheme|A React template with *sch.assests* defined, *sch.blocks*, *sch.fields* and *sch.notify* installed.|
-|10|ui.authen|A user interface for *api.authen*, also it provides authentication custom hooks to manage the state and fetch data.|
-|11|ui.author|A user interface for *api.author*.|
-|12|ui.relate|A user interface for *api.author*.|
+|Index|Repository|Description|Document|
+|--|--|--|--|
+|01|sch.stamps|A Python/Django package that provides abstract models, and helper mixins and functions for the back-end.|[Read](https://github.com/rhman-ibrahim/rhman-ibrahim/blob/main/sch/Stamps.md)|
+|02|api.authen|A Django/DRF authentication application that manages account credentials, profile information using JWT tokens.|[Read](https://github.com/rhman-ibrahim/rhman-ibrahim/blob/main/api/Authen.md)|
+|03|api.author|A Django/DRF authorization application that manages user roles, authorization permissions and groups.|[Read](https://github.com/rhman-ibrahim/rhman-ibrahim/blob/main/api/Author.md)|
+|04|api.relate|A Django/Channels application that manages real time events, adds messaging functionality to users and create polls.|[Read](https://github.com/rhman-ibrahim/rhman-ibrahim/blob/main/api/Relate.md)|
+|05|sch.assets|A CSS files container, reset, theme and font style sheets alongside with favicons.|[Read](https://github.com/rhman-ibrahim/rhman-ibrahim/blob/main/sch/Assets.md)|
+|06|sch.blocks|A JavaScript, React (Vite) components library which is used to build a responsive flex layout.|[Read](https://github.com/rhman-ibrahim/rhman-ibrahim/blob/main/sch/Blocks.md)|
+|07|sch.fields|A JavaScript, React (Vite) components library which provides styled form and input components.|[Read](https://github.com/rhman-ibrahim/rhman-ibrahim/blob/main/sch/Fields.md)|
+|08|sch.notify|A JavaScript, React (Vite) components library which provies notifications management.|[Read](https://github.com/rhman-ibrahim/rhman-ibrahim/blob/main/sch/Notify.md)|
+|09|ui.scheme|A React template with *sch.assests* defined, *sch.blocks*, *sch.fields* and *sch.notify* installed.|[Read](https://github.com/rhman-ibrahim/rhman-ibrahim/blob/main/sch/Scheme.md)|
+|10|ui.authen|A user interface for *api.authen*, also it provides authentication custom hooks to manage the state and fetch data.|[Read](https://github.com/rhman-ibrahim/rhman-ibrahim/blob/main/ui/Authen.md)|
+|11|ui.author|A user interface for *api.author*.|[Read](https://github.com/rhman-ibrahim/rhman-ibrahim/blob/main/ui/Author.md)|
+|12|ui.relate|A user interface for *api.author*.|[Read](https://github.com/rhman-ibrahim/rhman-ibrahim/blob/main/ui/Relate.md)|
