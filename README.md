@@ -55,17 +55,17 @@
 ![Scheme's structure.](Scheme.png)
 [![Tools](https://skillicons.dev/icons?i=html,css,python,django,postgres,js,react)](https://skillicons.dev)
 
-|Index|Repository|Description|Document|
-|--|--|--|--|
-|01|sch.stamps|A Python/Django package that provides abstract models, and helper mixins and functions for the back-end.|[Read](https://github.com/rhman-ibrahim/rhman-ibrahim/blob/main/sch/Stamps.md)|
-|02|api.authen|A Django/DRF authentication application that manages account credentials, profile information using JWT tokens.|[Read](https://github.com/rhman-ibrahim/rhman-ibrahim/blob/main/api/Authen.md)|
-|03|api.author|A Django/DRF authorization application that manages user roles, authorization permissions and groups.|[Read](https://github.com/rhman-ibrahim/rhman-ibrahim/blob/main/api/Author.md)|
-|04|api.relate|A Django/Channels application that manages real time events, adds messaging functionality to users and create polls.|[Read](https://github.com/rhman-ibrahim/rhman-ibrahim/blob/main/api/Relate.md)|
-|05|sch.assets|A CSS files container, reset, theme and font style sheets alongside with favicons.|[Read](https://github.com/rhman-ibrahim/rhman-ibrahim/blob/main/sch/Assets.md)|
-|06|sch.blocks|A JavaScript/React components library which is used to build a responsive flex layout.|[Read](https://github.com/rhman-ibrahim/rhman-ibrahim/blob/main/sch/Blocks.md)|
-|07|sch.fields|A JavaScript/React components library which provides styled form and input components.|[Read](https://github.com/rhman-ibrahim/rhman-ibrahim/blob/main/sch/Fields.md)|
-|08|sch.notify|A JavaScript/React components library which provies notifications management.|[Read](https://github.com/rhman-ibrahim/rhman-ibrahim/blob/main/sch/Notify.md)|
-|09|ui.scheme|A React template with *sch.assests* defined, *sch.blocks*, *sch.fields* and *sch.notify* installed.|[Read](https://github.com/rhman-ibrahim/rhman-ibrahim/blob/main/sch/Scheme.md)|
-|10|ui.authen|A JavaScript/React user interface for *api.authen*, and it provides authentication custom hooks to manage the state and fetch data.|[Read](https://github.com/rhman-ibrahim/rhman-ibrahim/blob/main/ui/Authen.md)|
-|11|ui.author|A JavaScript/React user interface for *api.author*.|[Read](https://github.com/rhman-ibrahim/rhman-ibrahim/blob/main/ui/Author.md)|
-|12|ui.relate|A JavaScript/React user interface for *api.author*.|[Read](https://github.com/rhman-ibrahim/rhman-ibrahim/blob/main/ui/Relate.md)|
+|Index|Repository|Description|Document|View|
+|--|--|--|--|--|
+|01|sch.stamps|A Python/Django package that provides abstract models, and helper mixins and functions for the back-end.|[Read](https://github.com/rhman-ibrahim/rhman-ibrahim/blob/main/sch/Stamps.md)|[View](https://github.com/rhman-ibrahim/sch.stamps)|
+|02|api.authen|A Django/DRF authentication application that manages account credentials, profile information using JWT tokens.|[Read](https://github.com/rhman-ibrahim/rhman-ibrahim/blob/main/api/Authen.md)|[View](https://github.com/rhman-ibrahim/api.authen)
+|03|api.author|A Django/DRF authorization application that manages user roles, authorization permissions and groups.|[Read](https://github.com/rhman-ibrahim/rhman-ibrahim/blob/main/api/Author.md)|[View](https://github.com/rhman-ibrahim/api.author)
+|04|api.relate|A Django/Channels application that manages real time events, adds messaging functionality to users and create polls.|[Read](https://github.com/rhman-ibrahim/rhman-ibrahim/blob/main/api/Relate.md)|[View](https://github.com/rhman-ibrahim/api.relate)
+|05|sch.assets|A CSS files container, reset, theme and font style sheets alongside with favicons.|[Read](https://github.com/rhman-ibrahim/rhman-ibrahim/blob/main/sch/Assets.md)|[View](https://github.com/rhman-ibrahim/sch.assets)
+|06|sch.blocks|A JavaScript/React components library which is used to build a responsive flex layout.|[Read](https://github.com/rhman-ibrahim/rhman-ibrahim/blob/main/sch/Blocks.md)|[View](https://github.com/rhman-ibrahim/sch.blocks)
+|07|sch.fields|A JavaScript/React components library which provides styled form and input components.|[Read](https://github.com/rhman-ibrahim/rhman-ibrahim/blob/main/sch/Fields.md)|[View](https://github.com/rhman-ibrahim/sch.fields)
+|08|sch.notify|A JavaScript/React components library which provies notifications management.|[Read](https://github.com/rhman-ibrahim/rhman-ibrahim/blob/main/sch/Notify.md)|[View](https://github.com/rhman-ibrahim/sch.notify)
+|09|ui.scheme|A React template with *sch.assests* defined, *sch.blocks*, *sch.fields* and *sch.notify* installed.|[Read](https://github.com/rhman-ibrahim/rhman-ibrahim/blob/main/sch/Scheme.md)|[View](https://github.com/rhman-ibrahim/ui.scheme)
+|10|ui.authen|A JavaScript/React user interface for *api.authen*, and it provides authentication custom hooks to manage the state and fetch data.|[Read](https://github.com/rhman-ibrahim/rhman-ibrahim/blob/main/ui/Authen.md)|[View](https://github.com/rhman-ibrahim/ui.authen)
+|11|ui.author|A JavaScript/React user interface for *api.author*.|[Read](https://github.com/rhman-ibrahim/rhman-ibrahim/blob/main/ui/Author.md)|[View](https://github.com/rhman-ibrahim/ui.author)
+|12|ui.relate|A JavaScript/React user interface for *api.author*.|[Read](https://github.com/rhman-ibrahim/rhman-ibrahim/blob/main/ui/Relate.md)|[View](https://github.com/rhman-ibrahim/ui.relate)
