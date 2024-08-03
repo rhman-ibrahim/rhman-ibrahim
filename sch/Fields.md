@@ -7,130 +7,146 @@ A JavaScript, React (Vite) components library which provides a styled form with 
 ---
 
 01. [Form](#form)
-    01. [Submit](#submit-button)
-    02. [Reset](#reset-button)
-02. [Numb](#number)
-    01. [Float](#float-input)
-    02. [Integer](#integer-input)
-03. [Pick](#pick)
-    01. [Select](#select-input)
-    02. [Checkbox](#checkbox-input)
-    03. [Radio](#radio-input)
-    04. [File](#file-input)
-04. [Text](#time)
-    01. [Hidden](#hidden-input)
-    02. [Copy](#copy-input)
-    03. [Password](#password-input)
-    04. [Text Area](#text-area)
-    05. [Text](#text-input)
-    06. [Search](#search-input)
-05. [Time](#time)
-    01. [Day](#day-input)
-    02. [Month](#month-input)
-    03. [Date](#date-input)
-    04. [Time](#time-input)
+    - [Submit Button](#submit-button)
+    - [Reset Button](#reset-button)
+02. [Fields](#fields)
+    01. [Number Field](#number)
+        01. [Float Input](#float-input)
+        02. [Integer Input](#integer-input)
+    02. [Pick Field](#pick)
+        01. [File Input](#file-input)
+        02. [Select Input](#select-input)
+        03. [Checkbox Input](#checkbox-input)
+        04. [Radio Input](#radio-input)
+    03. [Text Field](#time)
+        01. [Hidden Input](#hidden-input)
+        02. [Copy Input](#copy-input)
+        03. [Text Area](#text-area)
+        14. [Password Input](#password-input)
+        05. [Search Input](#search-input)
+        06. [Text Input](#text-input)
+    04. [Time Field](#time)
+        01. [Day Input](#day-input)
+        02. [Month Input](#month-input)
+        03. [Date Input](#date-input)
+        04. [Time Input](#time-input)
+
+---
 
 ## Form
 
-The Form component is a context provider created used React `useContext`, it used to manage the form reset and submit functionalities by utilizing `useRef`, `useState` and it expects form inputs as `children`. 
+The Form component expects `onSubmit` (function), `children` (inputs) and `resetButton` (boolean: optional) props to be set in order to work properly. The Form component is a context provider created using `createContext`, and it provides the reset functionality to its `children`.
 
-01. ### Submit Button
+- ### Submit Button
 
-In order to display the form submit button the submit function has to be provided to `onSubmit` prop.
-The Form component will handle collecting the form data from input (`formData`) using a `useRef` set to a unique identifier and the built-in Form API, this parameter `formData` is a must.
+In order to display the form's submit button the submit function has to be provided through `onSubmit` prop.
+The Form component will handle form data collecting, here insde the `handleSubmit` function, the `formData` parameter is an object of form input names as keys, and their values as values.
 
 ```
-    const logFormData = formData => {
+    const handleSubmit = formData => {
         console.log(formData)
     }
 
-    <Form onSubmit={ logFormData }>
+    <Form onSubmit={ handleSubmit }>
         ...
     </Form>
 ```
 
-02. ### Reset Button
+- ### Reset Button
 
-To use the reset functionality set the `resetButton` boolean prop to true, by double-clicking the reset button all values will be reset to their defaults (initial values set during the form creation), as this will toggle the Form component `reset` state variable which triggers the inner Input component reset function.
+To use the reset functionality set the `resetButton` boolean prop to true, and by double-clicking the reset button all values will be reset to their defaults (initial values set during the form creation).
 
 ```
-    const logFormData = formData => {
+    const handleSubmit = formData => {
         console.log(formData)
     }
 
-    <Form onSubmit={ logFormData } resetButton>
+    <Form onSubmit={ handleSubmit } resetButton>
         ...
     </Form>
 
     // or
 
-    <Form onSubmit={ logFormData } resetButton={ true }>
+    <Form onSubmit={ handleSubmit } resetButton={ true }>
         ...
     </Form>
 ```
+---
 
-## Number
+## Fields
 
-The `Numb` component is a number input handler, it works with inetegers and floats using sort of validators: regular expressions, minimum and maximum. The `Numb` handler component provides 2 styles of inputing: directly by updating the input manually, and indirectly by clicking increment and decrement buttons.
+The input components created are `16`, they categorized under 4 categories, `Number`, `Pick`, `Text` and `Time`. This helps in reducing the number of exports from 16 to 4.
 
-03. ### Float Input
+Each field component handles setting the default values for each input component if not provided; as  setting `required` to `true`, and `multiple` to `false` by default.
+
+|Prop|Description|
+|--|--|
+|`type`|The type of input, a string value that decides which input is the default in a swtich/case statement in the field, its value depends on the field component.|
+|`initial`|The starter value of the input, its type depends on the input nature.|
+|`required`|A boolean value states if the input must have a value or not (optional), the default value of it is `true`.|
+|`multiple`|A boolean value states if the input accepts more than a single value, the default value of it is `false`.|
+|`min`|The lowest accepted value for an input for a single input value, or the minimum number of values accepted for a multiple value input, default value is `2`.|
+|`max`|The highest accepted value for an input for a single input value, or the maximum number of values accepted for a multiple value input, default value is `3`.|
+
+---
+
+### Number
+
+The `NumberField` expects `type`: float or integer (default), `name`, `placeholder`, `initial`, `min`: 2 (default), `max`: 3 (default), `step`, `required`, `min` and `max` props to be set. The `NumberField` component groups `NumberInput`, and `StepperInput`, it works with inetegers and floats using sort of validators: regular expressions, minimum and maximum.
+
+- The `StepperInput` adds increment and decrement buttons to the input, in order to use it set a number value to the `set` prop.
+
+- For `step` and `initial` the value is 1 for both with integer type and 1.1 for both with float type. The `min` and `max` are 2 and 3 respectively.
+
+01. #### Float Input
 
 ```
-    <Form onSubmit={ logFormData } resetButton>
-        <Numb config={{ name:"a", type:"float", initial:11.11, min:7.7, max:12.14 }} />
+    <Form onSubmit={ handleSubmit } resetButton>
+        <NumberField config={{ name:"a", type:"float", initial:11.11, min:7.7, max:12.14 }} />
     </Form>
 
     // Using the stepper input: a readOnly input, the buttons are used to update the value.
 
-    <Form onSubmit={ logFormData } resetButton>
-        <Numb config={{ name:"b", type:"float", initial:11.11, min:7.7, max:12.14, setp:1.1 }} />
+    <Form onSubmit={ handleSubmit } resetButton>
+        <NumberField config={{ name:"b", type:"float", initial:11.11, min:7.7, max:12.14, setp:1.1 }} />
     </Form>
 ```
 
-04. ### Integer Input
+02. #### Integer Input
 
 ```
-    <Form onSubmit={ logFormData } resetButton>
-        <Numb config={{ name:"c", type:"integer", initial:11, min:7, max:12 }} />
+    <Form onSubmit={ handleSubmit } resetButton>
+        <NumberField config={{ name:"c", type:"integer", initial:11, min:7, max:12 }} />
     </Form>
 
     // Using the stepper input: a readOnly input, the buttons are used to update the value.
 
-    <Form onSubmit={ logFormData } resetButton>
-        <Numb config={{ name:"d", type:"integer", initial:11, min:7, max:12, setp:1 }} />
+    <Form onSubmit={ handleSubmit } resetButton>
+        <NumberField config={{ name:"d", type:"integer", initial:11, min:7, max:12, setp:1 }} />
     </Form>
 ```
 
-## Pick
+---
 
-The `Pick` handler component gathers all form inputs of selecting a single choice or multiple choices from a list of values: `select`, `checkbox`, `radio` and `file`. In all of mentioned inputs the `multiple` prop is `false` by default, except for `checkbox` which allows multiple choice by nature.
+### Pick
 
-The list of available choices is defined by 2 values (`choices` and `headings`) each has a different use, `choices` is the actual values list and `headings` is the representation by default `headings` is set to `choices`, this could be useful when working with multiple lanuages.
+The `PickField` expects `name`, `choices`, `headings` to be set in order to work properly. The `PickField` component gathers `select`, `checkbox`, `radio` and `file` inputs.
 
-Each of `select`, `checkbox`, and `file` has default minimum value of 2 and maximum value of 3. These are the limits of number of choices could be made, to update them set the `min` and `max` props.
-
-05. ### Select Input
+The list of available values to choose from is defined by 2 values `choices` and `headings`, each has a different use, as `choices` is the actual values list and `headings` is the representation; by default `headings` is set to `choices`, this could be useful when working with multiple lanuages.
 
 ```
-    const CITIES = ['Alexandria','Milano','Bucharest'];
-    <Pick config={{ name:"a", type:"select", choices:CITIES }} />
-    <Pick config={{ name:"b", type:"select", choices:CITIES, multiple:true }} />
+const CITIES = ['Alexandria','Milano','Bucharest'];
+<Form onSubmit={ (formData) => console.log( formData ) } resetButton>
+    <PickField config={{choices:CITIES, name:'city'}} />
+</Form>
+// to show values in Arabic language
+const CITIES_ARABIC = ["الإسكندرية", "ميلانو", "بوخارست"];
+<Form onSubmit={ (formData) => console.log( formData ) } resetButton>
+    <PickField config={{choices:CITIES, name:'city', headings:CITIES_ARABIC}} />
+</Form>
 ```
 
-06. ### Checkbox Input
-
-```
-    <Pick config={{ name:"a", type:"checkbox", choices:CITIES }} />
-    <Pick config={{ name:"b", type:"checkbox", choices:CITIES, multiple:true }} />
-```
-
-07. ### Radio Input
-
-```
-    <Pick config={{ name:"a", type:"radio", choices:CITIES }} />
-```
-
-08. ### File Input
+03. #### File Input
 
 The `allowed` prop could `string` and also could be an `array` and it is not case-sensitive, also the file input in pick has a special prop of `size` and each of `min`, `max` and `base` has to be set explicitly.
 
@@ -141,11 +157,34 @@ These are the size units to be used: `B`,`KB`,`'MB`,`GB`,`TB` and `PB` with resp
     <Pick config={{ name:"b", type:"file", allowed:['PNG', 'jpeg], size:{min:'7 MB', max:'14 MB'}, multiple:true }} />
 ```
 
-## Text
+04. #### Select Input
 
-The `Text` handler component manages all text inputs and this includes, `text`, `textarea`, `password`, `hidden` and 2 more special inputs `copy` and `search`.
+```
+    const CITIES = ['Alexandria','Milano','Bucharest'];
+    <Pick config={{ name:"a", type:"select", choices:CITIES }} />
+    <Pick config={{ name:"b", type:"select", choices:CITIES, multiple:true }} />
+```
 
-09. ### Hidden Input
+05. #### Checkbox Input
+
+```
+    <Pick config={{ name:"a", type:"checkbox", choices:CITIES }} />
+    <Pick config={{ name:"b", type:"checkbox", choices:CITIES, multiple:true }} />
+```
+
+06. #### Radio Input
+
+```
+    <Pick config={{ name:"a", type:"radio", choices:CITIES }} />
+```
+
+---
+
+### Text
+
+The `TextField` component gathers `text`, `textarea`, `password`, `hidden`, `copy` and `search`.
+
+07. #### Hidden Input
 
 The hidden input expects 2 props to be set in order to work properly, the `name` and `initial` props.
 
@@ -155,7 +194,7 @@ The hidden input expects 2 props to be set in order to work properly, the `name`
     </Form>
 ```
 
-10. ### Copy Input
+08. #### Copy Input
 
 The copy input expects 2 props to be set in order to work properly, its an un-controlled input and it shows a read-only text input with a button that copies the input's value on click.
 
@@ -165,7 +204,18 @@ The copy input expects 2 props to be set in order to work properly, its an un-co
     </Form>
 ```
 
-11. ### Password Input
+09. #### Text Area
+
+The text-area component expects `disabled`, `min`, `max`, `name`, `placeholder`, `required`, `value`, `criteria`. The `criteria` depends what to count *characters* (default: `chars`) or *words*, so `min` and `max` are either words or characeters depending on the `criteria` set. This component renders the HTML text-area element with a positioned counter. By default the `min` is `150` and `max` is `300`.
+
+```
+    <Form onSubmit={ (formData) => console.log( formData ) }>
+        <Text config={{ type:"textarea", name:"message", criteria:"chars" }} />
+        <Text config={{ type:"textarea", name:"message", criteria:"words" }} />
+    </Form>
+```
+
+10. #### Password Input
 
 The password input expects `disabled`, `name`, `placeholder`, `regex`, `readOnly`, `required` props to be set.
 If the the `regex` is not provided the input will be valid of it has a value.
@@ -177,18 +227,7 @@ If the the `regex` is not provided the input will be valid of it has a value.
     </Form>
 ```
 
-12. ### Text Area
-
-The text-area component expects `disabled`, `min`, `max`, `name`, `placeholder`, `required`, `value`, `criteria`. The `criteria` depends what to count *characters* (default: `chars`) or *words*, so `min` and `max` are either words or characeters depending on the `criteria` set. This component renders the HTML text-area element with a positioned counter. By default the `min` is `150` and `max` is `300`.
-
-```
-    <Form onSubmit={ (formData) => console.log( formData ) }>
-        <Text config={{ type:"textarea", name:"message", criteria:"chars" }} />
-        <Text config={{ type:"textarea", name:"message", criteria:"words" }} />
-    </Form>
-```
-
-13. ### Search Input
+11. #### Search Input
 
 The search input expects a `reference` to work properly, the `reference` should be created `useRef`. The components hide items that do not fall into the search query, as it searches the element `textContent`. Using the `scope` prop, the component will look for a certain `data-` attribute.
 
@@ -206,7 +245,7 @@ The search input expects a `reference` to work properly, the `reference` should 
     // here the search will look for the item with `data-nationality` attribute.
 ```
 
-14. ### Text Input
+12. #### Text Input
 
 The text component expects `disabled`, `name`, `placeholder`, `regex`, `readOnly`, `required`, `initial` props, all except `name` prop are optional. The `initial` value may not be valid, at this case the component will show both, the initial value and the error message.
 
@@ -218,14 +257,16 @@ The text component expects `disabled`, `name`, `placeholder`, `regex`, `readOnly
     <Text config={{ name:"username", initial:"schemer", regex:/^[a-zA-Z0-9_]{3,}$/ }} />
 ```
 
-## Time
+---
 
-15. ### Day Input
-16. ### Month Input
+### Time
 
-Both of day and month inputs are built using the `Pick` component, so they could have all of it forms, by setiing the `style` prop or `checkbox` (for multiple selection), `radio` or `style`. Please check the [Pick](#pick) section for more explanation.
+13. #### Day Input
+14. #### Month Input
 
-17. ### Date Input
+Both of day and month inputs are built using the `PickField` component, so they could have all of it forms, by setiing the `style` prop or `checkbox` (for multiple selection), `radio` or `style`. Please check the [Pick](#pick) section for more explanation.
+
+15. #### Date Input
 
 The date input expects `from`, `initial`, `max`, `min`, `multiple`, `name`, `required`, `to` props to be set. The `from` and `to` props shoudl be string formatted *d/m/yyyy*, by default the `from` is set to the date of and `to` is set to the next `14th of December`.
 
@@ -237,7 +278,7 @@ The date input has 3 buttons, previous, calendar and next. The calendar button s
     </Form>
 ```
 
-18. ### Time Input
+16. #### Time Input
 
 The time input expects `name`, `hour`, `minute`, `period`, `required`, and `system` to work properly. The time input shows a 12-system or 24-system clock, the system is set to `12` by default.
 
