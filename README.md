@@ -42,9 +42,6 @@ and results in having consistent system as all are built using `BL`.
 - All the MD files follow a consistent structure and approach, which I believe makes them easier to navigate.<br/>
 This consistency should also help anyone interested in collaborating with me better understand my thought process.<br/>
 
-- I’d love to connect if you're open to collaborating!, Feel free to <a href="mailto:rhman.alwarraq@proton.me">e-mail</a> me,<br/>
-or find me on [X](https://x.com/Rhman_Al_Warraq), where I’m often cheering for [AC Milan](https://www.acmilan.com/en).
-
   |Index|Section|Project|Description|
   |--|--|--|--|
   |1|Overview|All|What & How conceptually.|
@@ -55,6 +52,9 @@ or find me on [X](https://x.com/Rhman_Al_Warraq), where I’m often cheering for
   |6|Slices|Front-End|A Redux slice properties, actions/thunks and selectors.|
   |7|Components|Front-End|A React component that access the store to procces or to display.|
   |8|Helper Functions|Common|Special functions that does not belong to a module or class.|
+
+- I’d love to connect if you're open to collaborating!, Feel free to <a href="mailto:rhman.alwarraq@proton.me">e-mail</a> me,<br/>
+or find me on [X](https://x.com/Rhman_Al_Warraq), where I’m often cheering for [AC Milan](https://www.acmilan.com/en).
 
 ---
 
