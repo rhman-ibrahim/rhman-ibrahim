@@ -33,8 +33,9 @@ and allow for a greater focus on new features.
 and front-end base which is available as a docker image and an NPM package.
 
 - So for a new project, assuming it's code is `XY`, 'Schema' developes it based on the functionality needed,<br/>
-by combing one or more applications with the new application, as: `EN + XY`, `EN + OR + XY`, `EN + MS + XY` or<br/>
-`EN + OR + MS + XY`. This allows me to focus on `XY` features and special user interface components only,<br/>
+by combing one or more applications with the new application, as: `EN + XY`, `EN + OR + XY`, `EN + MS + XY` or `EN + OR + MS + XY`.<br/>
+
+- This allows me to focus on `XY` features and special user interface components only,<br/>
 and results in having consistent system as all are built using `BL`.
 
 ---
