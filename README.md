@@ -8,8 +8,8 @@ I spent a year working as a financial auditor. Driven by a passion for developin
 led me to quit my job and transition into programming specially web development.
 
 - Passionately and patiently after a long journey with self-studying, I have completed the:<br/>
-[Professional Front-end Developer Certificate](https://www.udacity.com/certificate/7LRNL263),<br/>
-and [Meta Back-End Developer Certificate](https://www.coursera.org/account/accomplishments/professional-cert/WRVKLVIP9XAK).
+[Professional Front-end Developer Certificate](https://www.udacity.com/certificate/7LRNL263), and
+[Meta Back-End Developer Certificate](https://www.coursera.org/account/accomplishments/professional-cert/WRVKLVIP9XAK).
 
 - Then I’ve decided to stick with **Django** and **React**, as I believe they offer the best solutions for my needs.<br/>
 However, I remain committed to continuously exploring, learning, and adapting to new tools and approaches.
