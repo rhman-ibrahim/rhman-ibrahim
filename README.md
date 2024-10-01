@@ -23,11 +23,11 @@ and allow for a greater focus on new features.
 
   |Project|Code|Description|DOCS|
   |--|--|--|--|
-  |Assets|`AS`|Stores the favicon, font files, general and reset style sheets and themes style sheet.|[Read](https://github.com/rhman-ibrahim/rhman-ibrahim/blob/main/core/assets.md)|
-  |Blocks|`BL`|Manages the user interface with flex layouts, form/inputs and notification components.|[Read](https://github.com/rhman-ibrahim/rhman-ibrahim/blob/main/core/blocks.md)|
-  |Authen|`EN`|Manages the authentication process with custom modeling, and tracks the user activity.|[Read](https://github.com/rhman-ibrahim/rhman-ibrahim/blob/main/apps/authen.md)|
-  |Author|`OR`|Manages the authorization process with default and custom permissions and user groups.|[Read](https://github.com/rhman-ibrahim/rhman-ibrahim/blob/main/apps/author.md)|
-  |AuthMS|`MS`|Manages the user messaging channels with one-to-one, one-to-many and group chat rooms.|[Read](https://github.com/rhman-ibrahim/rhman-ibrahim/blob/main/apps/authms.md)|
+  |Assets|`AS`|Stores the favicon, font files, general and reset style sheets and themes style sheet.|[Read](core/assets.md)|
+  |Blocks|`BL`|Manages the user interface with flex layouts, form/inputs and notification components.|[Read](core/blocks.md)|
+  |Authen|`EN`|Manages the authentication process with custom modeling, and tracks the user activity.|[Read](apps/authen.md)|
+  |Author|`OR`|Manages the authorization process with default and custom permissions and user groups.|[Read](apps/author.md)|
+  |AuthMS|`MS`|Manages the user messaging channels with one-to-one, one-to-many and group chat rooms.|[Read](apps/authms.md)|
 
 - Each of `EN`, `OR` and `MS` consists of a back-end code base which is available as a docker image,<br/>
 and front-end base (SPA: Single page application) which is available as a docker image and an NPM package.
@@ -42,7 +42,7 @@ and results in having consistent system as all are built using `BL`.
 - All the MD files follow a consistent structure and approach, which I believe makes them easier to navigate.<br/>
 This consistency should also help anyone interested in collaborating with me better understand my thought process.<br/>
 
-- I’d love to connect if you're open to collaborating!, Feel free to [e-mail](rhman.alwarraq@proton.me) me,<br/>
+- I’d love to connect if you're open to collaborating!, Feel free to [e-mail](mailto:rhman.alwarraq@proton.me) me,<br/>
 or find me on [X](https://x.com/Rhman_Al_Warraq), where I’m often cheering for [AC Milan](https://www.acmilan.com/en).
 
   |Index|Section|Project|Description|
