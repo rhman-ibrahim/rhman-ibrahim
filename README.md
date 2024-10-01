@@ -30,7 +30,9 @@ and allow for a greater focus on new features.
   |AuthMS|`MS`|Manages the user messaging channels with one-to-one, one-to-many and group chat rooms.|[Read](https://github.com/rhman-ibrahim/rhman-ibrahim/blob/main/apps/authms.md)|
 
 - Each of `EN`, `OR` and `MS` consists of a back-end code base which is available as a docker image,<br/>
-and front-end base which is available as a docker image and an NPM package. So for a new project, assume it's code is `XY`,<br/>
+and front-end base which is available as a docker image and an NPM package.
+
+- So for a new project, assume it's code is `XY`,<br/>
 using 'Schema' I could develope it based on the functionality needed by combing one or more applications with the new application,<br/>
 as: `EN + XY`, `EN + OR + XY`, `EN + MS + XY` or `EN + OR + MS + XY`. This allows me to focus on `XY` features<br/>
 and special user interface components only and results in having consistent system as all are built using `BL`.
