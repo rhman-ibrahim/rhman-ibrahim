@@ -1,5 +1,6 @@
 # Blocks
 
+- [Home](https://github.com/rhman-ibrahim)
 - [Overview](#overview)
 - [Modules](#modules)
 - [Slices](#slices)
