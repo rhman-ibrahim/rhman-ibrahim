@@ -2,7 +2,7 @@
 
 - [Home](https://github.com/rhman-ibrahim)
 - [Overview](#overview)
-- [Models](#models)
+- [Modules](#modules)
 
 ## Overview
-## Models
+## Modules
