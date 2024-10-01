@@ -30,13 +30,31 @@ and allow for a greater focus on new features.
   |AuthMS|`MS`|Manages the user messaging channels with one-to-one, one-to-many and group chat rooms.|[Read](https://github.com/rhman-ibrahim/rhman-ibrahim/blob/main/apps/authms.md)|
 
 - Each of `EN`, `OR` and `MS` consists of a back-end code base which is available as a docker image,<br/>
-and front-end base which is available as a docker image and an NPM package.
+and front-end base (SPA: Single page application) which is available as a docker image and an NPM package.
 
 - So for a new project, assuming it's code is `XY`, 'Schema' developes it based on the functionality needed,<br/>
-by combing one or more applications with the new application, as: `EN + XY`, `EN + OR + XY`, `EN + MS + XY` or `EN + OR + MS + XY`.<br/>
+by combing one or more applications with the new application, as: `EN + XY`, `EN + OR + XY`, `EN + MS + XY`<br/>
+or `EN + OR + MS + XY`.
 
 - This allows me to focus on `XY` features and special user interface components only,<br/>
 and results in having consistent system as all are built using `BL`.
+
+- All the MD files follow a consistent structure and approach, which I believe makes them easier to navigate.<br/>
+This consistency should also help anyone interested in collaborating with me better understand my thought process.<br/>
+
+- I’d love to connect if you're open to collaborating!, Feel free to [e-mail](rhman.alwarraq@proton.me) me,<br/>
+or find me on [X](https://x.com/Rhman_Al_Warraq), where I’m often cheering for [AC Milan](https://www.acmilan.com/en).
+
+  |Index|Section|Project|Description|
+  |--|--|--|--|
+  |1|Overview|All|What & How conceptually.|
+  |2|Modules|All|Collection of related definantions.|
+  |3|View Sets|Back-End|The DRF view and endpoints.|
+  |4|Models|Back-End|The Django model class that represents the object.|
+  |5|Consumers|Common|The Web-Socket connection class.|
+  |6|Slices|Front-End|A Redux slice properties, actions/thunks and selectors.|
+  |7|Components|Front-End|A React component that access the store to procces or to display.|
+  |8|Helper Functions|Common|Special functions that does not belong to a module or class.|
 
 ---
 
