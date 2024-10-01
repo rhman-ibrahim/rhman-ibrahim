@@ -1,7 +1,7 @@
-# Rhman Ibrahim
-## Full Stack Web Developer
+# 🤙🏾 Rhman Ibrahim
+## 👌🏾 Full Stack Web Developer
 
-## Profile
+## 👋🏾 Profile
 
 - After graduating from Alexandria University in Egypt with a Bachelor's degree in Accounting,
 I spent a year working as a financial auditor. Being driven by a passion for technology, developing and automation
@@ -15,19 +15,19 @@ through a program introduced by the ministry of communications and information t
 - Then I’ve decided to stick with **Django** and **React**, as I believe they offer the best solutions for my needs.
 However, I remain committed to continuously exploring, learning, and adapting to new tools and approaches.
 
-## Portofolio
+## 🙌🏾 Portofolio
 
 - Instead of developing scoped applications, I planned to develope abstract, reusable building blocks
 applications that forms an ecosystem for developing full-stack web applications with Django and React.
 And to reflect this vision, I developed 'Schema' to streamline the development
 and allow for a greater focus on new features.
 
-|Project|Code|Description|README|
-|--|--|--|--|
-|Blocks|`BL`|Manages the user interface with flex layouts, form/inputs and notification components.|[Read More.](https://github.com/rhman-ibrahim/rhman-ibrahim/blob/main/core/blocks.md)|
-|Authen|`EN`|Manages the authentication process with custom modeling, and tracks the user activity.|[Read More.](https://github.com/rhman-ibrahim/rhman-ibrahim/blob/main/apps/authen.md)|
-|Author|`OR`|Manages the authorization process with default and custom permissions and user groups.|[Read More.](https://github.com/rhman-ibrahim/rhman-ibrahim/blob/main/apps/author.md)|
-|AuthMS|`MS`|Manages the user messaging channels with one-to-one, one-to-many and group chat rooms.|[Read More.](https://github.com/rhman-ibrahim/rhman-ibrahim/blob/main/apps/authms.md)|
+  |Project|Code|Description|MD File|
+  |--|--|--|--|
+  |Blocks|`BL`|Manages the user interface with flex layouts, form/inputs and notification components.|[Read](https://github.com/rhman-ibrahim/rhman-ibrahim/blob/main/core/blocks.md)|
+  |Authen|`EN`|Manages the authentication process with custom modeling, and tracks the user activity.|[Read](https://github.com/rhman-ibrahim/rhman-ibrahim/blob/main/apps/authen.md)|
+  |Author|`OR`|Manages the authorization process with default and custom permissions and user groups.|[Read](https://github.com/rhman-ibrahim/rhman-ibrahim/blob/main/apps/author.md)|
+  |AuthMS|`MS`|Manages the user messaging channels with one-to-one, one-to-many and group chat rooms.|[Read](https://github.com/rhman-ibrahim/rhman-ibrahim/blob/main/apps/authms.md)|
 
 - Each of `EN`, `OR` and `MS` consists of a back-end code base which is available as a docker image,
 and front-end base which is available as a docker image and an NPM package. So for a new project, assume it's code is `XY`,
@@ -37,10 +37,14 @@ and special user interface components only and results in having consistent syst
 
 ---
 
-Special Thanks for [Skill Icons DEV](https://skillicons.dev) for making these awesome icons available to use.
+### 🙏🏾 Special thanks for [Skill Icons DEV](https://skillicons.dev)!, for making these awesome icons available to use.
 
-[![Front](https://skillicons.dev/icons?i=html,css,js,react,redux)](https://skillicons.dev)
+[![Front-end](https://skillicons.dev/icons?i=html,css,js,react,redux)](https://skillicons.dev)
 
-[![Back](https://skillicons.dev/icons?i=python,django,postgres,redis)](https://skillicons.dev)
+[![Back-end](https://skillicons.dev/icons?i=python,django,postgres,redis)](https://skillicons.dev)
 
-[![Builds](https://skillicons.dev/icons?i=git,docker,npm)](https://skillicons.dev)
+[![Automation](https://skillicons.dev/icons?i=git,docker,npm)](https://skillicons.dev)
+
+[![Environment](https://skillicons.dev/icons?i=github,vite)](https://skillicons.dev)
+
+[![Linux](https://skillicons.dev/icons?i=ubuntu)](https://skillicons.dev)
