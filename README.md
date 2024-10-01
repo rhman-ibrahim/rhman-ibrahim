@@ -24,6 +24,7 @@ and allow for a greater focus on new features.
 
   |Project|Code|Description|DOCS|
   |--|--|--|--|
+  |Assets|`AS`|Stores the favicon, font files, general and reset style sheets and themes style sheet.|[Read](https://github.com/rhman-ibrahim/rhman-ibrahim/blob/main/core/assets.md)|
   |Blocks|`BL`|Manages the user interface with flex layouts, form/inputs and notification components.|[Read](https://github.com/rhman-ibrahim/rhman-ibrahim/blob/main/core/blocks.md)|
   |Authen|`EN`|Manages the authentication process with custom modeling, and tracks the user activity.|[Read](https://github.com/rhman-ibrahim/rhman-ibrahim/blob/main/apps/authen.md)|
   |Author|`OR`|Manages the authorization process with default and custom permissions and user groups.|[Read](https://github.com/rhman-ibrahim/rhman-ibrahim/blob/main/apps/author.md)|
