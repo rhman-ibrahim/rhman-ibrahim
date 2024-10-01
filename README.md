@@ -33,8 +33,8 @@ and allow for a greater focus on new features.
 and front-end base (SPA: Single page application) which is available as a docker image and an NPM package.
 
 - So for a new project, assuming it's code is `XY`, 'Schema' developes it based on the functionality needed,<br/>
-by combing one or more applications with the new application, as: `EN + XY`, `EN + OR + XY`, `EN + MS + XY`<br/>
-or `EN + OR + MS + XY`.
+by combing one or more applications with the new application, as: `EN + XY`, `EN + OR + XY`,<br/>
+ `EN + MS + XY` or `EN + OR + MS + XY`.
 
 - This allows me to focus on `XY` features and special user interface components only,<br/>
 and results in having consistent system as all are built using `BL`.
@@ -42,7 +42,7 @@ and results in having consistent system as all are built using `BL`.
 - All the MD files follow a consistent structure and approach, which I believe makes them easier to navigate.<br/>
 This consistency should also help anyone interested in collaborating with me better understand my thought process.<br/>
 
-- I’d love to connect if you're open to collaborating!, Feel free to [e-mail](mailto:rhman.alwarraq@proton.me) me,<br/>
+- I’d love to connect if you're open to collaborating!, Feel free to <a href="mailto:rhman.alwarraq@proton.me">e-mail</a> me,<br/>
 or find me on [X](https://x.com/Rhman_Al_Warraq), where I’m often cheering for [AC Milan](https://www.acmilan.com/en).
 
   |Index|Section|Project|Description|
