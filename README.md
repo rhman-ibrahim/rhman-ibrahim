@@ -27,14 +27,14 @@ and allow for a greater focus on new features.
   |Schema|`SC`|Pre-configured starting template for a front-end (React) or back-end (Django) project.|[Read](idea/schema.md)|
   |Authen|`EN`|Manages the authentication process with custom modeling, and tracks the user activity.|[Read](idea/authen.md)|
   |Author|`OR`|Manages the authorization process with default and custom permissions and user groups.|[Read](idea/author.md)|
-  |AuthMS|`MS`|Manages the user messaging channels with one-to-one, one-to-many and group chat rooms.|[Read](idea/authms.md)|
+  |Accord|`AC`|Manages the user messaging channels with one-to-one, one-to-many and group chat rooms.|[Read](idea/accord.md)|
 
-- Each of `EN`, `OR` and `MS` consists of a back-end code base which is available as a docker image,<br/>
+- Each of `EN`, `OR` and `AC` consists of a back-end code base which is available as a docker image,<br/>
 and front-end base (SPA: Single page application) which is available as a docker image and an NPM package.
 
 - So for a new project, assuming it's code is `XY`, 'Schema' developes it based on the functionality needed,<br/>
 by combing one or more applications with the new application, as: `EN + XY`, `EN + OR + XY`,<br/>
- `EN + MS + XY` or `EN + OR + MS + XY`.
+ `EN + AC + XY` or `EN + OR + AC + XY`.
 
 - This allows me to focus on `XY` features and special user interface components only,<br/>
 and results in having consistent system as all are built using `BL`.
