@@ -46,8 +46,8 @@ This consistency should also help anyone interested in collaborating with me bet
   |--|--|--|--|
   |1|Overview|All|What & How conceptually.|
   |2|Modules|All|Collection of related definantions.|
-  |3|View Sets|Back-End|The DRF view and endpoints.|
-  |4|Models|Back-End|The Django model class that represents the object.|
+  |3|Models|Back-End|The Django model class that represents the object.|
+  |4|View Sets|Back-End|The DRF view and endpoints.|
   |5|Consumers|Common|The Web-Socket connection class.|
   |6|Slices|Front-End|A Redux slice properties, actions/thunks and selectors.|
   |7|Components|Front-End|A React component that access the store to procces or to display.|

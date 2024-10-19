@@ -2,15 +2,15 @@
 
 - [Home](https://github.com/rhman-ibrahim)
 - [Overview](#overview)
+- [Modules](#modules)
 - [Models](#models)
 - [View Sets](#view-sets)
-- [Modules](#modules)
 - [Consumers](#consumers)
 - [Helper Functions](#helper-functions)
 
 ## Overview
+## Modules
 ## Models
 ## View Sets
-## Modules
 ## Consumers
 ## Helper Functions
