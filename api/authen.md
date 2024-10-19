@@ -88,7 +88,18 @@
 |get_user_id|static|Decodes the access token|access_token|Account instance id|`None`|
 |get_profile|static|Returns the profile instance after caching it|request|Profile model instance|--|
 |set_cookie|static|Creates a cookie with pre defined attributes|response, key, value, expires|`None`|`None`|
-|authen|static|Used a decorator, it validates the incoming request and attaches related variables to the request object.|role, permission, group|Passes the request to the decorated view-set method|Raises an exception|
+|authen|static|Used a decorator, it validates the incoming request and attaches related variables to the request object.|role, permission, group|Passes the request to the decorated view-set method|Raises an [exception](#authen-decorator-exceptions)|
+
+### `authen` Decorator Exceptions
+
+|Exception|Status|Message|
+|--|--|--|
+|InvalidToken|401|Invalid token provided|
+|AuthenticationFailed|401|Authentication failed, please check your credentials|
+|TokenError|422|There was an error with your token. Please try again|
+|TokenBackendError|500|Internal server error with token processing|
+|ObjectDoesNotExist|404|The <model_name> instance can not be found|
+|Exception|500|An unexpected error occurred, please try again later|
 
 ### SignViewSet
 
