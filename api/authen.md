@@ -113,22 +113,26 @@
 
 ### SignViewSet
 
+**SignViewSet** manages the all of sign operations through `authen/` URL, signing-up: registering a new user by creating an account, signing-in: verifying the account credentials by issuing JWT tokens (refresh and access tokens), refreshing the accessing token and signing-out: blacklisting the refresh token.
+
 |Method|Type|Description|Parameter|On Success|On Failure|
 |--|--|--|--|--|--|
-|get|GET|--|--|--|--|
-|post|POST|--|--|--|--|
-|patch|PATCH|--|--|--|--|
+|authenticate_pair|static|Uses `AuthenticationForm` with the request data to validates the account credentials|`username`, `password`|Calls `issue_jwt_tokens`|HTTP_401_UNAUTHORIZED|
+|authenticate_secret|static|Uses the secret string to find its account|`secret`|Renews the account's secret then calls `issue_jwt_tokens`|HTTP_401_UNAUTHORIZED|
+|issue_jwt_tokens|static|Retrives the `refreshToken` instance and uses it to create a new `access_token` as a cookie|Account instance|HTTP_204_NO_CONTENT|Read the [exceptions](#the-authen-method-exceptions) table|
 |put|PUT|--|--|--|--|
-|delete|DELETE|--|--|--|--|
+|post|POST|Uses the SignUpForm with request data to create a new account|`username`, `password1`, `password2`|HTTP_201_CREATED|HTTP_400_BAD_REQUEST|
+|patch|PATCH|It calls `authenticate_pair` or `authenticate_secret` according to the request data structure|request data|--|--|
+|delete|DELETE|Clears the cache, deletes the cookies and blacklists the refresh token|request|HTTP_204_NO_CONTENT|Read the [exceptions](#the-authen-method-exceptions) table|
 
 ### AccountViewSet
 
 |Method|Type|Description|Parameter|On Success|On Failure|
 |--|--|--|--|--|--|
 |get|GET|--|--|--|--|
+|put|PUT|--|--|--|--|
 |post|POST|--|--|--|--|
 |patch|PATCH|--|--|--|--|
-|put|PUT|--|--|--|--|
 |delete|DELETE|--|--|--|--|
 
 ### ProfileViewSet
@@ -136,9 +140,9 @@
 |Method|Type|Description|Parameter|On Success|On Failure|
 |--|--|--|--|--|--|
 |get|GET|--|--|--|--|
+|put|PUT|--|--|--|--|
 |post|POST|--|--|--|--|
 |patch|PATCH|--|--|--|--|
-|put|PUT|--|--|--|--|
 |delete|DELETE|--|--|--|--|
 
 ## Helper Functions
