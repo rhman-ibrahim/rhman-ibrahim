@@ -18,79 +18,69 @@
 
 `Stamp` is an abstract model it does not create a separate table in the database. It serves as a blueprint for other models to inherit fields and methods. It provides a unique serial, time information about instance creation and last update.
 
-|Field|Description|
-|--|--|
-|id|An auto field, the primary key of the database table|
-|identifier|An uneditable char field stores a random unique identifier by [generate_uuid](#generate_uuid)|
-|created|A date time field stores the time of creation|
-|updated|A date time field stores the time of last update|
-
-|Method|Description|
-|--|--|
-|time_to_text|A static method that uses [timeago](https://pypi.org/project/timeago/) to format Django date time fields|
-|created_text|An instance method that utilizes `time_to_text` to format `created`|
-|updated_text|An instance method that utilizes `time_to_text` to format `updated`|
+|Attribute|Type|Description|
+|--|--|--|
+|id|Property|An auto field, the primary key of the database table|
+|identifier|Property|An uneditable char field stores a random unique identifier by [generate_uuid](#generate_uuid)|
+|created|Property|A date time field stores the time of creation|
+|updated|Property|A date time field stores the time of last update|
+|time_to_text|Method|A static method that uses [timeago](https://pypi.org/project/timeago/) to format Django date time fields|
+|created_text|Method|An instance method that utilizes *time_to_text* to format *created*|
+|updated_text|Method|An instance method that utilizes *time_to_text* to format *updated*|
 
 ### Account
 
-`Account` is the primary model of the `Authen` application, it inherits each of `AbstractBaseUser` to create a custom user model, `PermissionsMixin` to utilize permission and group functionalities and `Stamp`.
+`Account` is the primary model of the *Authen* application, it inherits each of *AbstractBaseUser* to create a custom user model, *PermissionsMixin* to utilize permission and group functionalities and *Stamp*.
 
-|Field|Description|
-|--|--|
-|username|A char field that stores the username|
-|secret|A char field that stores a secret key by [generate_uuid](#generate_uuid), it could be used instead of username/password|
-|groups|A many to many relation field between `Account` model and `Group` model|
-|user_permissions|A many to many relation field between `Account` model and `Permission` model|
-|is_active|A boolean field that stores the state of being active|
-|is_superuser|A boolean field that stores the state of being a system super user|
-|is_admin|A boolean field that stores the state of being an admin|
-|is_staff|A boolean field that stores the state of being a staff|
-
-|Method|Description|
-|--|--|
-|get_role|An instance method that returns the account's role: `superuser`, `admin`, `staff` or `user`|
-|renew_secret|An instance method that updates the account's secret by [generate_uuid](#generate_uuid)|
-|log|An instance method creates a log entry for an action made by the account|
+|Attribute|Type|Description|
+|--|--|--|
+|username|Property|A char field that stores the username|
+|secret|Property|A char field that stores a secret key by [generate_uuid](#generate_uuid), it could be used instead of username/password|
+|groups|Property|A many to many relation field between *Account* model and *Group* model|
+|user_permissions|Property|A many to many relation field between *Account* model and *Permission* model|
+|is_active|Property|A boolean field that stores the state of being active|
+|is_superuser|Property|A boolean field that stores the state of being a system super user|
+|is_admin|Property|A boolean field that stores the state of being an admin|
+|is_staff|Property|A boolean field that stores the state of being a staff|
+|get_role|Method|An instance method that returns the account's role: *superuser*, *admin*, *staff* or *user*|
+|renew_secret|Method|An instance method that updates the account's secret by [generate_uuid](#generate_uuid)|
+|log|Method|An instance method creates a log entry for an action made by the account|
 
 ### Profile
 
-`Profile` is a complementary model in the `Authen`'s authentication management, it is connected to the `Account` model on creation by a `post_save` signal, it stores the user's secondary data and all of its fields are optional.
+`Profile` is a complementary model to *Authen*'s authentication, it is connected to the *Account* model on creation by a *post_save* signal, it stores the user's secondary data and all of its fields are optional.
 
-|Field|Description|
-|--|--|
-|account|A one to one relation field that connects each account instance to a profile instance|
-|gender|A char field with choices that stores the user's gender: `Female`, `Male` or `Withheld`|
-|firstname|A char field that stores the firstname|
-|lastname|A char field that stores the lastname|
-|email|An e-mail field that stores the e-mail address|
-|phone|A char field that stores a phone number|
-|about|A text field that stores an about paragraph|
-
-|Method|Description|
-|--|--|
-|get_info|An instance method that returns a dictionary of `username`, `firstname`, `lastname` and `gender`|
-|get_contact|An instance method that returns a dictionary of `username`, `email` and `phone`|
-|get_about|An instance method that returns a dictionary of `username` and `about`|
-|clear_info|An instance mothod that clears `firstname`, `lastname` and sets `gender` to `Withheld`|
-|clear_contact|An instance mothod that clears `email` and `phone`|
-|clear_about|An instance mothod that clears `about`|
-|clear|An instance mothod that clears the profile instance data|
+|Attribute|Type|Description|
+|--|--|--|
+|account|Property|A one to one relation field that connects each account instance to a profile instance|
+|gender|Property|A char field with choices that stores the user's gender: *Female*, *Male* or *Withheld*|
+|firstname|Property|A char field that stores the firstname|
+|lastname|Property|A char field that stores the lastname|
+|email|Property|An e-mail field that stores the e-mail address|
+|phone|Property|A char field that stores a phone number|
+|about|Property|A text field that stores an about paragraph|
+|get_info|Method|An instance method that returns a dictionary of *username*, *firstname*, *lastname* and *gender*|
+|get_contact|Method|An instance method that returns a dictionary of *username*, *email* and *phone*|
+|get_about|Method|An instance method that returns a dictionary of *username* and *about*|
+|clear_info|Method|An instance mothod that clears *firstname*, *lastname* and sets *gender* to *Withheld*|
+|clear_contact|Method|An instance mothod that clears *email* and *phone*|
+|clear_about|Method|An instance mothod that clears *about*|
+|clear|Method|An instance mothod that clears the profile instance data|
 
 ## View Sets
 
 ### BaseViewSet
 
+**BaseViewSet** provides common functionalities that are used in different areas of this application *authen* or others where *authen* is installed.
+The main player of *BaseViewSet* is ***authen*** as this method is used as a decorator by all other methods that needs to be protected.
+
 |Method|Type|Description|Parameter|On Success|On Failure|
 |--|--|--|--|--|--|
-|authenticate_jwt|static|Authenticates the request by validating the access token|request|A tuple of Account model instance and access token string|--|
-|extract_cookies|static|Extracts the cookies from request headers|request headers|returns cookies as key/value dictionary|returns an empty dictionary {}|
-|extract_form_errors|static|Extracts form field and non field errors|BaseModelForm instance|A list of all form errors as strings|--|
-|get_user_id|static|Decodes the access token|access_token|Account instance id|`None`|
-|get_profile|static|Returns the profile instance after caching it|request|Profile model instance|--|
-|set_cookie|static|Creates a cookie with pre defined attributes|response, key, value, expires|`None`|`None`|
-|authen|static|Used a decorator, it validates the incoming request and attaches related variables to the request object.|role, permission, group|Passes the request to the decorated view-set method|Raises an [exception](#authen-decorator-exceptions)|
+|authen|static|Validates requests and adds authentication related data to it|role, permission, group|Passes the request to the decorated method|Raises an [exception](#the-authen-method-exceptions)|
+|extract_form_errors|static|Extracts form field and non field errors|BaseModelForm instance|A list of all form errors as strings|Returns HTTP_500_INTERNAL_SERVER_ERROR|
+|set_cookie|static|Creates a cookie with pre defined attributes|response, key, value, expires|Retruns None|Returns None|
 
-### `authen` Decorator Exceptions
+### The **authen** method Exceptions
 
 |Exception|Status|Message|
 |--|--|--|
