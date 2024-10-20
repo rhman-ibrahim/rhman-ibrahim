@@ -82,14 +82,14 @@ The main player of *BaseViewSet* is ***authen*** as this method is used as a dec
 
 ### The **authen** method Exceptions
 
-|Exception|Status|Message|
+|Exception Raised|Return|Message|
 |--|--|--|
-|InvalidToken|401|Invalid token provided|
-|AuthenticationFailed|401|Authentication failed, please check your credentials|
-|TokenError|422|There was an error with your token. Please try again|
-|TokenBackendError|500|Internal server error with token processing|
-|ObjectDoesNotExist|404|The <model_name> instance can not be found|
-|Exception|500|An unexpected error occurred, please try again later|
+|InvalidToken|HTTP_401_UNAUTHORIZED|Invalid token provided|
+|AuthenticationFailed|HTTP_401_UNAUTHORIZED|Authentication failed, please check your credentials|
+|TokenError|HTTP_422_UNPROCESSABLE_ENTITY|There was an error with your token. Please try again|
+|TokenBackendError|HTTP_500_INTERNAL_SERVER_ERROR|Internal server error with token processing|
+|ObjectDoesNotExist|HTTP_404_NOT_FOUND|The <model_name> instance can not be found|
+|Exception|HTTP_500_INTERNAL_SERVER_ERROR|An unexpected error occurred, please try again later|
 
 ### SignViewSet
 
