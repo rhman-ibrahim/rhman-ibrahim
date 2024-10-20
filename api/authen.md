@@ -119,10 +119,10 @@
 |--|--|--|--|--|--|
 |authenticate_pair|static|Uses `AuthenticationForm` with the request data to validates the account credentials|`username`, `password`|Calls `issue_jwt_tokens`|HTTP_401_UNAUTHORIZED|
 |authenticate_secret|static|Uses the secret string to find its account|`secret`|Renews the account's secret then calls `issue_jwt_tokens`|HTTP_401_UNAUTHORIZED|
-|issue_jwt_tokens|static|Retrives the `refreshToken` instance and uses it to create a new `access_token` as a cookie|Account instance|HTTP_204_NO_CONTENT|Read the [exceptions](#the-authen-method-exceptions) table|
-|put|PUT|--|--|--|--|
+|issue_jwt_tokens|static|Creates a refresh token and an access token for the account as cookies|--|HTTP_204_NO_CONTENT|Read the [exceptions](#the-authen-method-exceptions) table|
+|put|PUT|Retrives the `refreshToken` instance and uses it to create a new `access_token` as a cookie|Account instance|HTTP_204_NO_CONTENT|Read the [exceptions](#the-authen-method-exceptions) table|
 |post|POST|Uses the SignUpForm with request data to create a new account|`username`, `password1`, `password2`|HTTP_201_CREATED|HTTP_400_BAD_REQUEST|
-|patch|PATCH|It calls `authenticate_pair` or `authenticate_secret` according to the request data structure|request data|--|--|
+|patch|PATCH|Calls `authenticate_pair` or `authenticate_secret` according to the request data structure|request data|--|--|
 |delete|DELETE|Clears the cache, deletes the cookies and blacklists the refresh token|request|HTTP_204_NO_CONTENT|Read the [exceptions](#the-authen-method-exceptions) table|
 
 ### AccountViewSet
