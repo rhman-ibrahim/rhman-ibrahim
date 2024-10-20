@@ -8,15 +8,15 @@
 
 ## Overview
 
-`Authen` is a [Python](https://www.python.org/) API developed with [Django](https://www.djangoproject.com/) and Django REST Framework ([DRF](https://www.django-rest-framework.org/)), designed for user authentication. It includes a custom authentication model [Account](#account) for handling user credentials and a [Profile](#profile) model to manage user information.
+***Authen*** is a [Python](https://www.python.org/) API developed with [Django](https://www.djangoproject.com/) and Django REST Framework ([DRF](https://www.django-rest-framework.org/)), designed for user authentication. It includes a custom authentication model [Account](#account) for handling user credentials and a [Profile](#profile) model to manage user information.
 
-`Authen` uses JSON Web Tokens ([JWT](https://jwt.io/introduction)) to provide a stateless authentication to reduce server loading as all of necessary information is contained within the token instead of storing session data on the server.
+***Authen*** uses JSON Web Tokens ([JWT](https://jwt.io/introduction)) to provide a stateless authentication to reduce server loading as all of necessary information is contained within the token instead of storing session data on the server.
 
 ## Models
 
 ### Stamp
 
-`Stamp` is an abstract model it does not create a separate table in the database. It serves as a blueprint for other models to inherit fields and methods. It provides a unique serial, time information about instance creation and last update.
+***Stamp*** is an abstract model it does not create a separate table in the database. It serves as a blueprint for other models to inherit fields and methods. It provides a unique serial, time information about instance creation and last update.
 
 |Attribute|Type|Description|
 |--|--|--|
@@ -30,7 +30,7 @@
 
 ### Account
 
-`Account` is the primary model of the *Authen* application, it inherits each of *AbstractBaseUser* to create a custom user model, *PermissionsMixin* to utilize permission and group functionalities and *Stamp*.
+***Account*** is the primary model of the *Authen* application, it inherits each of *AbstractBaseUser* to create a custom user model, *PermissionsMixin* to utilize permission and group functionalities and *Stamp*.
 
 |Attribute|Type|Description|
 |--|--|--|
@@ -48,7 +48,7 @@
 
 ### Profile
 
-`Profile` is a complementary model to *Authen*'s authentication, it is connected to the *Account* model on creation by a *post_save* signal, it stores the user's secondary data and all of its fields are optional.
+***Profile*** is a complementary model to *Authen*'s authentication, it is connected to the *Account* model on creation by a *post_save* signal, it stores the user's secondary data and all of its fields are optional.
 
 |Attribute|Type|Description|
 |--|--|--|
@@ -76,7 +76,7 @@ The main player of *BaseViewSet* is ***authen*** as this method is used as a dec
 
 |Method|Type|Description|Parameter|On Success|On Failure|
 |--|--|--|--|--|--|
-|authen|static|Validates requests and adds authentication related data to it|role, permission, group|Passes the request to the decorated method|Raises an [exception](#the-authen-method-exceptions)|
+|authen|static|Validates requests and adds authentication related data to it|role, permission, group|Passes the request to the decorated method|Read the [exceptions](#the-authen-method-exceptions) table|
 |extract_form_errors|static|Extracts form field and non field errors|BaseModelForm instance|A list of all form errors as strings|Returns HTTP_500_INTERNAL_SERVER_ERROR|
 |set_cookie|static|Creates a cookie with pre defined attributes|response, key, value, expires|Retruns None|Returns None|
 
@@ -125,6 +125,6 @@ The main player of *BaseViewSet* is ***authen*** as this method is used as a dec
 
 ### generate_uuid
 
-Using `uuid4` from [`UUID`](https://docs.python.org/3/library/uuid.html) this function creates in a form of a string a random series of numbers and letters, separated by hyphens. It's often used to create a "one-of-a-kind" ID that won't be repeated, even if it's generated millions of times.
+Using ***uuid4*** from [UUID](https://docs.python.org/3/library/uuid.html) this function creates in a form of a string a random series of numbers and letters, separated by hyphens. It's often used to create a "one-of-a-kind" ID that won't be repeated, even if it's generated millions of times.
 
 Example output: *c9b1d53e-65f3-4f07-bd89-13a2c9fdde65*.
