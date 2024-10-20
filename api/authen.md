@@ -10,7 +10,7 @@
 
 ***Authen*** is a [Python](https://www.python.org/) API developed with [Django](https://www.djangoproject.com/) and Django REST Framework ([DRF](https://www.django-rest-framework.org/)), designed for user authentication. It includes a custom authentication model [Account](#account) for handling user credentials and a [Profile](#profile) model to manage user information.
 
-***Authen*** uses JSON Web Tokens ([JWT](https://jwt.io/introduction)) to provide a stateless authentication to reduce server loading as all of necessary information is contained within the token instead of storing session data on the server.
+***Authen*** uses JSON Web Tokens ([JWT](https://jwt.io/introduction)) by [Simple JWT](https://pypi.org/project/djangorestframework-simplejwt/) to provide a stateless authentication to reduce server loading as all of necessary information is contained within the token instead of storing session data on the server.
 
 ## Models
 
@@ -71,14 +71,34 @@
 
 ### BaseViewSet
 
-**BaseViewSet** provides common functionalities that are used in different areas of this application *authen* or others where *authen* is installed.
-The main player of *BaseViewSet* is ***authen*** as this method is used as a decorator by all other methods that needs to be protected.
+**BaseViewSet** provides common functionalities that are used in different areas of this application *authen* or others where *authen* is installed. The main player of *BaseViewSet* is ***authen*** as this method is used as a decorator to authenticate the access.
 
 |Method|Type|Description|Parameter|On Success|On Failure|
 |--|--|--|--|--|--|
-|authen|static|Validates requests and adds authentication related data to it|role, permission, group|Passes the request to the decorated method|Read the [exceptions](#the-authen-method-exceptions) table|
+|authen|static|Validates the access with this [workflow](#the-authen-method-workflow)|role, permission, group|Passes the request to the decorated method|Read the [exceptions](#the-authen-method-exceptions) table|
 |extract_form_errors|static|Extracts form field and non field errors|BaseModelForm instance|A list of all form errors as strings|Returns HTTP_500_INTERNAL_SERVER_ERROR|
 |set_cookie|static|Creates a cookie with pre defined attributes|response, key, value, expires|Retruns None|Returns None|
+
+### The **authen** method Workflow
+
+1. Default:
+    1. **Extracting the Token from the Request**: The **authenticate** method from **JWTAuthentication** first looks for the token in the request's Authorization header, the header should follow the format: `Authorization: Bearer <token>` and if the header does not have the expected format or if it is missing, the method returns None, which means the authentication is unsuccessful.
+    2. **Validating the Token**: If a token is found, the method validates it using the Simple JWT backend. This validation process involves checking that the token is well-formed, has not expired, and is signed with a valid secret key.
+    3. **Decoding the Token**: Once the token is validated, it is decoded to extract the payload.
+    The payload contains information about the user, such as the user ID and other claims.
+    4. **Fetching the User**: Using the user ID from the token's payload, the method retrieves the corresponding user from the database. If the user is not found, or if the token is not valid, the authentication will fail.
+    5. **Returning the User and Token**: If everything is correct, the method returns a tuple containing the user object and the validated token and this allows accessing both the authenticated user and the token in your views.
+    6. **Assigning the user and token**: Finally the **authen** method assigns `request.account` and `request.token` to the actual *account* instance and token returned respectively.
+2. Role:
+    1. If the role parameter was provided with an actual role argument, authen will compare the account's actual role rank to it.
+    2. If it is equal to it or hight, authen will set `request.role_check_passed` (`False` by default) to `True` and pass the request; else it will return a `HTTP_401_UNAUTHORIZED` with a message: '*Unauthorized access, lack of authority.*'.
+3. Permission:
+    1. If the permission parameter was provided with an actual permission: `<app_label>.<permission_codename>`, authen will use `has_perm` to check if the user has this permission.
+    2. If `has_perm` return `True` authen will set `request.permission_check_passed` (`False` by default) to `True` and pass the request; else it will return a `HTTP_401_UNAUTHORIZED` with a message: '*Unauthorized access, lack of permission.*'.
+4. Group:
+    1. If the group parameter was provided with an actual group's name, authen will check if the user is a member of this group.
+    2. If `True` authen will set `request.group_check_passed` (`False` by default) to `True` and pass the request; else it will return a `HTTP_401_UNAUTHORIZED` with a message: '*Unauthorized access, lack of membership.*'.
+5. Finally *authen* handles different exceptions as it wraps different view-set methods of this application or other Schema applications, read the [exceptions](#the-authen-method-exceptions) table.
 
 ### The **authen** method Exceptions
 
@@ -95,7 +115,7 @@ The main player of *BaseViewSet* is ***authen*** as this method is used as a dec
 
 |Method|Type|Description|Parameter|On Success|On Failure|
 |--|--|--|--|--|--|
-|get|Get|--|--|--|--|
+|get|GET|--|--|--|--|
 |post|POST|--|--|--|--|
 |patch|PATCH|--|--|--|--|
 |put|PUT|--|--|--|--|
@@ -105,7 +125,7 @@ The main player of *BaseViewSet* is ***authen*** as this method is used as a dec
 
 |Method|Type|Description|Parameter|On Success|On Failure|
 |--|--|--|--|--|--|
-|get|Get|--|--|--|--|
+|get|GET|--|--|--|--|
 |post|POST|--|--|--|--|
 |patch|PATCH|--|--|--|--|
 |put|PUT|--|--|--|--|
@@ -115,7 +135,7 @@ The main player of *BaseViewSet* is ***authen*** as this method is used as a dec
 
 |Method|Type|Description|Parameter|On Success|On Failure|
 |--|--|--|--|--|--|
-|get|Get|--|--|--|--|
+|get|GET|--|--|--|--|
 |post|POST|--|--|--|--|
 |patch|PATCH|--|--|--|--|
 |put|PUT|--|--|--|--|
