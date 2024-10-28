@@ -22,11 +22,13 @@
 
 - Instead of building single, scoped applications, I envisioned creating a suite of abstract,
 
-  modular applications—each providing a foundational component of a full-stack web project. To realize this vision,
+  modular applications—each providing a foundational component of a full-stack web project.
 
-  I developed **Petrichor**, an ecosystem designed to streamline development and support Django and React applications.
+   To realize this vision, I developed **Petrichor**, an ecosystem designed to streamline development and support Django and React applications.
 
-  Each application within **Petrichor** serves as a key building block, enabling greater focus on creating new features while ensuring essential project components are robustly managed.
+  Each application within **Petrichor** serves as a key building block,
+  
+  enabling greater focus on creating new features while ensuring essential project components are robustly managed.
 
   |Repository|Label|Description|DOCS|
   |--|--|--|--|
