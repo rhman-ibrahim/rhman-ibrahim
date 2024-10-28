@@ -19,17 +19,17 @@ led me to quit my job and transition into programming specially web development.
 
 However, I remain committed to continuously exploring, learning, and adapting to new tools and approaches.
 
-## 🙌🏾 Portofolio
+## 🙌🏾 Portofolio | Petrichor
 
 - Instead of developing scoped applications, I planned to develope abstract building blocks applications
 
 that forms an ecosystem for developing full-stack web applications with Django and React.
 
-And to implement this vision, I developed 'Schema' to streamline the development,
+And to implement this vision, I developed 'Petrichor' to streamline the development,
 
 and allow for a greater focus on new features.
 
-  |Project|Code|Description|DOCS|
+  |Project|Label|Description|DOCS|
   |--|--|--|--|
   |Assets|`AS`|Stores the favicon, font files, general and reset style sheets and themes style sheet.|[Read](idea/assets.md)|
   |Schema|`SC`|Pre-configured starting template for a front-end (React) or back-end (Django) project.|[Read](idea/schema.md)|
@@ -41,7 +41,7 @@ and allow for a greater focus on new features.
 
 and front-end base (SPA: Single page application) which is available as a docker image and an NPM package.
 
-- So for a new project, assuming it's code is `XY`, 'Schema' developes it based on the functionality needed,
+- So for a new project, assuming it's labeled `XY`, using 'Petrichor' I develope it based on the functionality needed only,
 
 by combing one or more applications with the new application, as: `EN + XY`, `EN + OR + XY`,
 
@@ -57,14 +57,16 @@ This consistency should also help anyone interested in collaborating with me bet
 
   |Index|Section|Project|Description|
   |--|--|--|--|
-  |1|Overview|All|What & How conceptually.|
-  |2|Modules|All|Collection of related definantions.|
-  |3|Models|Back-End|The Django model class that represents the object.|
-  |4|View Sets|Back-End|The DRF view and endpoints.|
-  |5|Consumers|Common|The Web-Socket connection class.|
-  |6|Slices|Front-End|A Redux slice properties, actions/thunks and selectors.|
-  |7|Components|Front-End|A React component that access the store to procces or to display.|
-  |8|Helper Functions|Common|Special functions that does not belong to a module or class.|
+  |0|Overview|All|What & How conceptually.|
+  |1|Modules|All|Collection of related definantions.|
+  |2|Models|Back-End|The Django model class that represents the object.|
+  |3|View Sets|Back-End|The DRF view and endpoints.|
+  |4|Consumers|Common|The Web-Socket connection class.|
+  |5|Slices|Front-End|A Redux slice properties, actions/thunks and selectors.|
+  |6|Components|Front-End|A React component that access the store to procces or to display.|
+  |7|Helper Functions|Common|Special functions that does not belong to a module or class.|
+  |8|Tests|Common|Unit tests or other written forms of tests.|
+  |9|Notes|All|General notes.|
 
 - I’d love to connect if you're open to collaborating!, Feel free to [e-mail](mailto:rhman.alwarraq@proton.me) me,
 or find me on [X](https://x.com/Rhman_Al_Warraq), where I’m often cheering for [AC Milan](https://www.acmilan.com/en).
