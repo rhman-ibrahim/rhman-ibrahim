@@ -6,9 +6,9 @@
 
 - After graduating from Alexandria University in Egypt with a Bachelor's degree in Accounting,
 
-I spent a year working as a financial auditor. Driven by a passion for developing and automation
+I spent a year working as a financial auditor. However, my passion for development and automation
 
-led me to quit my job and transition into programming specially web development.
+inspired me to leave that role and pursue a career in programming, focusing specifically on web development.
 
 - Passionately and patiently after a long journey with self-studying, I have completed the:
 
