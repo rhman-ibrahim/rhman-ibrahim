@@ -26,29 +26,27 @@
 
   I developed **Petrichor**, an ecosystem designed to streamline development and support Django and React applications.
 
-  Each application within **Petrichor** serves as a key building block, enabling greater focus on creating new features
-
-  while ensuring essential project components are robustly managed.
+  Each application within **Petrichor** serves as a key building block, enabling greater focus on creating new features while ensuring essential project components are robustly managed.
 
   |Repository|Label|Description|DOCS|
   |--|--|--|--|
-  |Assets|`AS`|Stores general style sheets (theme, reset & etc), favicons and font files.|[Read](idea/assets.md)|
-  |Schema|`SC`|Petrichor configured starting templates for new Django and React projects.|[Read](idea/schema.md)|
-  |Authen|`EN`|Manages authentication with custom modeling, and tracks the user activity.|[Read](idea/authen.md)|
-  |Author|`OR`|Manages authorization with default and custom permissions and user groups.|[Read](idea/author.md)|
-  |Accord|`AC`|Manages real-time messaging and notifying via WebSocket (ws:) connections.|[Read](idea/accord.md)|
+  |Assets|`AS`|Stores general style sheets (theme, reset & etc), favicons and fonts.|[Read](idea/assets.md)|
+  |Schema|`SC`|Configured starting templates for new Django and React projects.|[Read](idea/schema.md)|
+  |Authen|`EN`|Manages authentication with custom modeles, and tracks the user activity.|[Read](idea/authen.md)|
+  |Author|`OR`|Manages authorization with permissions and system-user groups.|[Read](idea/author.md)|
+  |Accord|`AC`|Manages real-time messaging and notifying via WebSockets.|[Read](idea/accord.md)|
 
 ## 🏗️ Petrichor | The Development
 
 > Assume that we are going to develop a new project (labeled `NP`).
 
-- Starting a new full-stack web project with **Petrichor** is streamlined to include only the necessary functionality,
+- Starting a new full-stack web project with **Petrichor** is streamlined to include only the necessary,
 
-  since that each of `EN`, `OR` and `AC` has a Docker image, a Python PIP package and a JavaScript NPM package.
+  since that each of `EN`, `OR` and `AC` has its separate Docker image, PIP package and NPM package.
 
-- ***Petrichor*** delivers a consistent look and feel across applications as each of `EN`, `OR` and `AC`
+- ***Petrichor*** delivers a consistent look and feel across applications as each of `EN`,
   
-  UI is built with ***Schema*** which will be used to build `NP` UI too.
+  `OR` and `AC` UI is built with ***Schema***, which will be used to build `NP` UI too.
 
 - The table below shows the time saved if **Petrichor** is used without customizations made,
 
