@@ -1,24 +1,32 @@
 # 🤙🏾 Rhman Ibrahim
+
 ## 👌🏾 Full Stack Web Developer
 
 ## 👋🏾 Profile
 
-- After graduating from Alexandria University in Egypt with a Bachelor's degree in Accounting,<br/>
-I spent a year working as a financial auditor. Driven by a passion for developing and automation<br/>
+- After graduating from Alexandria University in Egypt with a Bachelor's degree in Accounting,
+
+I spent a year working as a financial auditor. Driven by a passion for developing and automation
+
 led me to quit my job and transition into programming specially web development.
 
-- Passionately and patiently after a long journey with self-studying, I have completed the:<br/>
+- Passionately and patiently after a long journey with self-studying, I have completed the:
+
 [Professional Front-end Developer Certificate](https://www.udacity.com/certificate/7LRNL263), and
 [Meta Back-End Developer Certificate](https://www.coursera.org/account/accomplishments/professional-cert/WRVKLVIP9XAK).
 
-- Then I’ve decided to stick with **Django** and **React**, as I believe they offer the best solutions for my needs.<br/>
+- Then I’ve decided to stick with **Django** and **React**, as I believe they offer the best solutions for my needs.
+
 However, I remain committed to continuously exploring, learning, and adapting to new tools and approaches.
 
 ## 🙌🏾 Portofolio
 
-- Instead of developing scoped applications, I planned to develope abstract building blocks applications<br/>
-that forms an ecosystem for developing full-stack web applications with Django and React.<br/>
-And to implement this vision, I developed 'Schema' to streamline the development,<br/>
+- Instead of developing scoped applications, I planned to develope abstract building blocks applications
+
+that forms an ecosystem for developing full-stack web applications with Django and React.
+
+And to implement this vision, I developed 'Schema' to streamline the development,
+
 and allow for a greater focus on new features.
 
   |Project|Code|Description|DOCS|
@@ -29,18 +37,23 @@ and allow for a greater focus on new features.
   |Author|`OR`|Manages the authorization process with default and custom permissions and user groups.|[Read](idea/author.md)|
   |Accord|`AC`|Manages the user messaging channels with one-to-one, one-to-many and group chat rooms.|[Read](idea/accord.md)|
 
-- Each of `EN`, `OR` and `AC` consists of a back-end code base which is available as a docker image,<br/>
+- Each of `EN`, `OR` and `AC` consists of a back-end code base which is available as a docker image,
+
 and front-end base (SPA: Single page application) which is available as a docker image and an NPM package.
 
-- So for a new project, assuming it's code is `XY`, 'Schema' developes it based on the functionality needed,<br/>
-by combing one or more applications with the new application, as: `EN + XY`, `EN + OR + XY`,<br/>
- `EN + AC + XY` or `EN + OR + AC + XY`.
+- So for a new project, assuming it's code is `XY`, 'Schema' developes it based on the functionality needed,
 
-- This allows me to focus on `XY` features and special user interface components only,<br/>
+by combing one or more applications with the new application, as: `EN + XY`, `EN + OR + XY`,
+
+`EN + AC + XY` or `EN + OR + AC + XY`.
+
+- This allows me to focus on `XY` features and special user interface components only,
+
 and results in having consistent system as all are built using `BL`.
 
-- All the MD files follow a consistent structure and approach, which I believe makes them easier to navigate.<br/>
-This consistency should also help anyone interested in collaborating with me better understand my thought process.<br/>
+- All the MD files follow a consistent structure and approach, which I believe makes them easier to navigate.
+
+This consistency should also help anyone interested in collaborating with me better understand my thought process.
 
   |Index|Section|Project|Description|
   |--|--|--|--|
@@ -53,12 +66,13 @@ This consistency should also help anyone interested in collaborating with me bet
   |7|Components|Front-End|A React component that access the store to procces or to display.|
   |8|Helper Functions|Common|Special functions that does not belong to a module or class.|
 
-- I’d love to connect if you're open to collaborating!, Feel free to <a href="mailto:rhman.alwarraq@proton.me">e-mail</a> me,<br/>
+- I’d love to connect if you're open to collaborating!, Feel free to [e-mail](mailto:rhman.alwarraq@proton.me) me,
 or find me on [X](https://x.com/Rhman_Al_Warraq), where I’m often cheering for [AC Milan](https://www.acmilan.com/en).
 
 ---
 
-### 🙏🏾 Special thanks for [Skill Icons DEV](https://skillicons.dev)!, for making these awesome icons.
+### 🙏🏾 Special thanks for [Skill Icons DEV](https://skillicons.dev)!, for making these awesome icons
+
 > Below are icons representing the key technologies I use in my work.
 
 [![Front-end](https://skillicons.dev/icons?i=html,css,js,vite,react,redux)](https://skillicons.dev)
