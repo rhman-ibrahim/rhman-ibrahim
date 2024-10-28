@@ -10,7 +10,7 @@
 
 - Passionately and patiently after a long journey with self-studying different languages and tools,
   
-  I have completed the [Professional Front-end Developer Certificate](https://www.udacity.com/certificate/7LRNL263),
+  I have completed the [Professional Front-end Developer Certificate](https://www.udacity.com/certificate/e/d280637a-7173-11ed-94c6-5f4a95aeddd7),
   
   and [Meta Back-End Developer Certificate](https://www.coursera.org/account/accomplishments/professional-cert/WRVKLVIP9XAK).
 
@@ -18,44 +18,54 @@
 
   However, I remain committed to continuously exploring, learning, and adapting to new tools and approaches.
 
-## 🙌🏾 Portofolio
+## 💼 Petrichor | The Portfolio
 
 - Instead of building single, scoped applications, I envisioned creating a suite of abstract,
 
   modular applications—each providing a foundational component of a full-stack web project. To realize this vision,
 
-  I developed ***Petrichor***, an ecosystem designed to streamline development and support Django and React applications.
+  I developed **Petrichor**, an ecosystem designed to streamline development and support Django and React applications.
 
-  Each application within ***Petrichor*** serves as a key building block, enabling greater focus on creating new features
+  Each application within **Petrichor** serves as a key building block, enabling greater focus on creating new features
 
   while ensuring essential project components are robustly managed.
 
-  |Project|Label|Description|DOCS|
+  |Repository|Label|Description|DOCS|
   |--|--|--|--|
-  |Assets|`AS`|Stores the favicon, font files, general and reset style sheets and themes style sheet.|[Read](idea/assets.md)|
-  |Schema|`SC`|Pre-configured starting template for a front-end (React) or back-end (Django) project.|[Read](idea/schema.md)|
-  |Authen|`EN`|Manages the authentication process with custom modeling, and tracks the user activity.|[Read](idea/authen.md)|
-  |Author|`OR`|Manages the authorization process with default and custom permissions and user groups.|[Read](idea/author.md)|
-  |Accord|`AC`|Manages the user messaging channels with one-to-one, one-to-many and group chat rooms.|[Read](idea/accord.md)|
+  |Assets|`AS`|Stores general style sheets (theme, reset & etc), favicons and font files.|[Read](idea/assets.md)|
+  |Schema|`SC`|Petrichor configured starting templates for new Django and React projects.|[Read](idea/schema.md)|
+  |Authen|`EN`|Manages authentication with custom modeling, and tracks the user activity.|[Read](idea/authen.md)|
+  |Author|`OR`|Manages authorization with default and custom permissions and user groups.|[Read](idea/author.md)|
+  |Accord|`AC`|Manages real-time messaging and notifying via WebSocket (ws:) connections.|[Read](idea/accord.md)|
 
-## 🌧️ Petrichor
+## 🏗️ Petrichor | The Development
 
-- Since that each of `EN`, `OR` and `AC` has a Docker image, a Python PIP package and a JavaScript NPM package.
+> Assume that we are going to develop a new project (labeled `NP`).
 
-  So, using 'Petrichor' I develop new applications in different forms according to the functionality needed as:
+- Starting a new full-stack web project with **Petrichor** is streamlined to include only the necessary functionality,
 
-  |Package|Apps|Description|Time Saved|
+  since that each of `EN`, `OR` and `AC` has a Docker image, a Python PIP package and a JavaScript NPM package.
+
+- ***Petrichor*** delivers a consistent look and feel across applications as each of `EN`, `OR` and `AC`
+  
+  UI is built with ***Schema*** which will be used to build `NP` UI too.
+
+- The table below shows the time saved if **Petrichor** is used without customizations made,
+
+  the hours is calculated on average according to this [workflow](idea/workflow.md).
+
+  |Package|Structure|Summary|Time Saved|
   |--|--|--|--|
-  |P1|`EN`|Authentication system.|80 Hours|
-  |P2|`EN` & `AC`|Authentication system and real-time messaging and notifying.|160 Hours|
-  |P3|`EN` & `OR`|Authentication system and users manager (authorization).|240 Hours|
-  |P4|`EN`, `OR` & `AC`|Authentication system, users manager (authorization) and real-time messaging and notifying.|320 Hours|
+  |P1|`EN`|Authentication.|120 Hours|
+  |P2|`EN` & `AC`|Authentication with real-time messaging and notifying.|240 Hours|
+  |P3|`EN` & `OR`|Authentication coupled with users authorization system.|240 Hours|
+  |P4|`EN`, `OR` & `AC`|Authentication, authorization system and real-time messaging and notifying.|320 Hours|
 
 ## 📄 Documentation
 
-- All the MD files follow a consistent structure and approach, which I believe makes them easier to navigate.
+- All the README MD files follow a consistent structure, hoping this consistency helps anyone
 
-  This consistency should also help anyone interested in collaborating with me better understand my thought process.
+  interested in collaborating with me better to know everything in advance.
 
   |Index|Section|Project|Description|
   |--|--|--|--|
@@ -66,11 +76,11 @@
   |4|Consumers|Common|The Web-Socket connection class.|
   |5|Slices|Front-End|A Redux slice properties, actions/thunks and selectors.|
   |6|Components|Front-End|A React component that access the store to procces or to display.|
-  |7|Helper Functions|Common|Special functions that does not belong to a module or class.|
+  |7|Helpers|Common|Independent special modules/functions.|
   |8|Tests|Common|Unit tests or other written forms of tests.|
   |9|Notes|All|General notes.|
 
-- I’d love to connect if you're open to collaborating!, Feel free to [e-mail](mailto:rhman.alwarraq@proton.me) me,
+- I’d love to connect, feel free to [e-mail](mailto:rhman.alwarraq@proton.me) me,
 or find me on [X](https://x.com/Rhman_Al_Warraq), where I’m often cheering for [AC Milan](https://www.acmilan.com/en).
 
 ---
