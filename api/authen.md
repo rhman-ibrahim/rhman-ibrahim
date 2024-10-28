@@ -78,6 +78,7 @@
 |authen|static|Validates the access with this [workflow](#the-authen-method-workflow)|role, permission, group|Passes the request to the decorated method|Read the [exceptions](#the-authen-method-exceptions) table|
 |extract_form_errors|static|Extracts form field and non field errors|BaseModelForm instance|A list of all form errors as strings|Returns HTTP_500_INTERNAL_SERVER_ERROR|
 |set_cookie|static|Creates a cookie with pre defined attributes|response, key, value, expires|Retruns None|Returns None|
+|paginate_queryset|static|--|--|--|--|
 
 ### The **authen** method Workflow
 
@@ -111,7 +112,7 @@
 |ObjectDoesNotExist|HTTP_404_NOT_FOUND|The <model_name> instance can not be found|
 |Exception|HTTP_500_INTERNAL_SERVER_ERROR|An unexpected error occurred, please try again later|
 
-### SignViewSet
+### SignViewSet | `authen/`
 
 **SignViewSet** manages the all of sign operations through `authen/` URL, signing-up: registering a new user by creating an account, signing-in: verifying the account credentials by issuing JWT tokens (refresh and access tokens), refreshing the accessing token and signing-out: blacklisting the refresh token.
 
@@ -125,24 +126,34 @@
 |sign_in|PATCH|Calls `authenticate_pair` or `authenticate_secret` according to the request data structure|request data|--|--|
 |sign_out|DELETE|Clears the cache, deletes the cookies and blacklists the refresh token|request|HTTP_204_NO_CONTENT|Read the [exceptions](#the-authen-method-exceptions) table|
 
-### AccountViewSet
+### AccountViewSet | `authen/account`
+
+|Method|Type|Description|Parameter|On Success|On Failure|
+|--|--|--|--|--|--|
+|get_secret|static|--|--|--|--|
+|get_card|static|--|--|--|--|
+|update_secret|static|--|--|--|--|
+|update_password|static|--|--|--|--|
+|get|get|--|--|--|--|
+|update|PATCH|--|--|--|--|
+|verify|POST|--|--|--|--|
+|reset|PUT|--|--|--|--|
+
+### LogEntryViewSet | `authen/log`
+
+|Method|Type|Description|Parameter|On Success|On Failure|
+|--|--|--|--|--|--|
+|get_action_flag_choice|static|--|--|--|--|
+|paginator|static|--|--|--|--|
+|latest|static|--|--|--|--|
+|get|GET|--|--|--|--|
+
+### ProfileViewSet | `authen/profile`
 
 |Method|Type|Description|Parameter|On Success|On Failure|
 |--|--|--|--|--|--|
 |get|GET|--|--|--|--|
-|put|PUT|--|--|--|--|
-|post|POST|--|--|--|--|
-|patch|PATCH|--|--|--|--|
-|delete|DELETE|--|--|--|--|
-
-### ProfileViewSet
-
-|Method|Type|Description|Parameter|On Success|On Failure|
-|--|--|--|--|--|--|
-|get|GET|--|--|--|--|
-|put|PUT|--|--|--|--|
-|post|POST|--|--|--|--|
-|patch|PATCH|--|--|--|--|
+|update|PATCH|--|--|--|--|
 |delete|DELETE|--|--|--|--|
 
 ## Helper Functions
