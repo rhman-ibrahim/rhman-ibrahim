@@ -1,33 +1,32 @@
-# 🤙🏾 Rhman Ibrahim
-
-## 👌🏾 Full Stack Web Developer
-
-## 👋🏾 Profile
+# 👌🏾 A Full Stack Web Developer
 
 - After graduating from Alexandria University in Egypt with a Bachelor's degree in Accounting,
 
-I spent a year working as a financial auditor. However, my passion for development and automation
+  I spent a year working as a financial auditor.
 
-inspired me to leave that role and pursue a career in programming, focusing specifically on web development.
+- My passion for development and automation inspired me to leave that role and pursue
 
-- Passionately and patiently after a long journey with self-studying, I have completed the:
+  a career in programming, focusing specifically on web development.
 
-[Professional Front-end Developer Certificate](https://www.udacity.com/certificate/7LRNL263), and
-[Meta Back-End Developer Certificate](https://www.coursera.org/account/accomplishments/professional-cert/WRVKLVIP9XAK).
+- Passionately and patiently after a long journey with self-studying different languages and tools,
+  
+  I have completed the: [Professional Front-end Developer Certificate](https://www.udacity.com/certificate/7LRNL263),
+  
+  and [Meta Back-End Developer Certificate](https://www.coursera.org/account/accomplishments/professional-cert/WRVKLVIP9XAK).
 
-- Then I’ve decided to stick with **Django** and **React**, as I believe they offer the best solutions for my needs.
+- Then I’ve decided to stick with **Python/Django** and **JavaScript/React**, as I believe they offer the best solutions for my needs.
 
-However, I remain committed to continuously exploring, learning, and adapting to new tools and approaches.
+  However, I remain committed to continuously exploring, learning, and adapting to new tools and approaches.
 
-## 🙌🏾 Portofolio | Petrichor
+## 🙌🏾 Portofolio
 
 - Instead of developing scoped applications, I planned to develope abstract building blocks applications
 
-that forms an ecosystem for developing full-stack web applications with Django and React.
+  that forms an ecosystem for developing full-stack web applications with Django and React.
 
-And to implement this vision, I developed 'Petrichor' to streamline the development,
+  And to implement this vision, I developed 'Petrichor' to streamline the development,
 
-and allow for a greater focus on new features.
+  and allow for a greater focus on new features.
 
   |Project|Label|Description|DOCS|
   |--|--|--|--|
@@ -37,23 +36,24 @@ and allow for a greater focus on new features.
   |Author|`OR`|Manages the authorization process with default and custom permissions and user groups.|[Read](idea/author.md)|
   |Accord|`AC`|Manages the user messaging channels with one-to-one, one-to-many and group chat rooms.|[Read](idea/accord.md)|
 
-- Each of `EN`, `OR` and `AC` consists of a back-end code base which is available as a docker image,
+## 🌧️ Petrichor
 
-and front-end base (SPA: Single page application) which is available as a docker image and an NPM package.
+- Since that each of `EN`, `OR` and `AC` has a Docker image, a Python PIP package and a JavaScript NPM package.
 
-- So for a new project, assuming it's labeled `XY`, using 'Petrichor' I develope it based on the functionality needed only,
+  So, using 'Petrichor' I develop new applications in different forms according to the functionality needed as:
 
-by combing one or more applications with the new application, as: `EN + XY`, `EN + OR + XY`,
+  |Package|Apps|Description|Time Saved|
+  |--|--|--|--|
+  |P1|`EN`|Authentication system.|80 Hours|
+  |P2|`EN` & `AC`|Authentication system and real-time messaging and notifying.|160 Hours|
+  |P3|`EN` & `OR`|Authentication system and users manager (authorization).|240 Hours|
+  |P4|`EN`, `OR` & `AC`|Authentication system, users manager (authorization) and real-time messaging and notifying.|320 Hours|
 
-`EN + AC + XY` or `EN + OR + AC + XY`.
-
-- This allows me to focus on `XY` features and special user interface components only,
-
-and results in having consistent system as all are built using `BL`.
+## 📄 Documentation
 
 - All the MD files follow a consistent structure and approach, which I believe makes them easier to navigate.
 
-This consistency should also help anyone interested in collaborating with me better understand my thought process.
+  This consistency should also help anyone interested in collaborating with me better understand my thought process.
 
   |Index|Section|Project|Description|
   |--|--|--|--|
