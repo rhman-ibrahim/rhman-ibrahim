@@ -10,7 +10,7 @@
 
 - Passionately and patiently after a long journey with self-studying different languages and tools,
   
-  I have completed the: [Professional Front-end Developer Certificate](https://www.udacity.com/certificate/7LRNL263),
+  I have completed the [Professional Front-end Developer Certificate](https://www.udacity.com/certificate/7LRNL263),
   
   and [Meta Back-End Developer Certificate](https://www.coursera.org/account/accomplishments/professional-cert/WRVKLVIP9XAK).
 
@@ -20,13 +20,15 @@
 
 ## 🙌🏾 Portofolio
 
-- Instead of developing scoped applications, I planned to develope abstract building blocks applications
+- Instead of building single, scoped applications, I envisioned creating a suite of abstract,
 
-  that forms an ecosystem for developing full-stack web applications with Django and React.
+  modular applications—each providing a foundational component of a full-stack web project. To realize this vision,
 
-  And to implement this vision, I developed 'Petrichor' to streamline the development,
+  I developed ***Petrichor***, an ecosystem designed to streamline development and support Django and React applications.
 
-  and allow for a greater focus on new features.
+  Each application within ***Petrichor*** serves as a key building block, enabling greater focus on creating new features
+
+  while ensuring essential project components are robustly managed.
 
   |Project|Label|Description|DOCS|
   |--|--|--|--|
