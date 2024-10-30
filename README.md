@@ -8,7 +8,7 @@
 
   a career in programming, focusing specifically on web development.
 
-- Passionately and patiently after a long journey with self-studying different languages and tools,
+- After a long journey with self-studying different languages and tools,
   
   I have completed the [Professional Front-end Developer Certificate](https://www.udacity.com/certificate/e/d280637a-7173-11ed-94c6-5f4a95aeddd7),
   
