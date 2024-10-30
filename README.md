@@ -4,7 +4,11 @@
 
   with a Bachelor's degree in Accounting, I've worked as a financial auditor.
 
-- My passion for development and automation led me to shift to web development.
+- Seeing the reliability and accessibility of web solutions—compatible across devices
+
+  and usable without installation—sparked my passion for development and automation.
+  
+  This inspiration led me to make a career shift into web development to bring my vision to life.
 
 - After a long journey with self-studying different languages and tools,
   
