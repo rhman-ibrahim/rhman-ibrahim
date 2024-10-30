@@ -73,18 +73,18 @@
 
   interested in collaborating with me better to know everything in advance.
 
-  |Index|Section|Project|Description|
-  |--|--|--|--|
-  |0|Overview|All|What & How conceptually.|
-  |1|Modules|All|Collection of related definantions.|
-  |2|Models|Back-End|The Django model class that represents the object.|
-  |3|View Sets|Back-End|The DRF view and endpoints.|
-  |4|Consumers|Common|The Web-Socket connection class.|
-  |5|Slices|Front-End|A Redux slice properties, actions/thunks and selectors.|
-  |6|Components|Front-End|A React component that access the store to procces or to display.|
-  |7|Helpers|Common|Independent special modules/functions.|
-  |8|Tests|Common|Unit tests or other written forms of tests.|
-  |9|Notes|All|General notes.|
+  |Index|Section|Description|
+  |--|--|--|
+  |0|Overview|What & How conceptually.|
+  |1|Modules|Collection of related definantions.|
+  |2|Models|The Django model class that represents the object.|
+  |3|View Sets|The DRF view and endpoints.|
+  |4|Consumers|The Web-Socket connection class.|
+  |5|Slices|A Redux slice properties, actions/thunks and selectors.|
+  |6|Components|A React component that access the store to procces or to display.|
+  |7|Helpers|Independent special modules/functions.|
+  |8|Tests|Unit tests or other written forms of tests.|
+  |9|Notes|General notes.|
 
 - I’d love to connect, feel free to [e-mail](mailto:rhman.alwarraq@proton.me) me,
 or find me on [X](https://x.com/Rhman_Al_Warraq), where I’m often cheering for [AC Milan](https://www.acmilan.com/en).
