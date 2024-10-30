@@ -76,7 +76,7 @@
   |Index|Title|Description|
   |--|--|--|
   |0|Introduction|Overview of the project purpose and key features.|
-  |1|Installation & Setup|Instructions for setting up the project.|
+  |1|Installation & Setup|Instructions for setting up the project & its dependencies.|
   |2|Models|Explanation of models fields and relationships.|
   |3|Endpoints|View Sets, input requirements, and response examples.|
   |4|Slices|Redux slices, state and main properties.|
