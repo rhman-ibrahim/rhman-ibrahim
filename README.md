@@ -73,16 +73,16 @@
 
   interested in collaborating with me better to know everything in advance.
 
-  |Index|Section|Description|
+  |Index|Title|Description|
   |--|--|--|
-  |0|Overview|What & How conceptually.|
-  |1|Modules|Collection of related definantions.|
-  |2|Models|The Django model class that represents the object.|
-  |3|View Sets|The DRF view and endpoints.|
-  |4|Consumers|The Web-Socket connection class.|
-  |5|Slices|A Redux slice properties, actions/thunks and selectors.|
-  |6|Components|A React component that access the store to procces or to display.|
-  |7|Helpers|Independent special modules/functions.|
+  |0|Introduction|Overview of the project purpose and key features.|
+  |1|Installation & Setup|Instructions for setting up the project.|
+  |2|Models|Explanation of models fields and relationships.|
+  |3|Endpoints|View Sets, input requirements, and response examples.|
+  |4|Slices|Redux slices, state and main properties.|
+  |5|Components|A React component that access the store, procces or display.|
+  |6|Helpers|Independent special classes or functions.|
+  |7|Forms & Validation|Forms, validation logic, and error handling.|
   |8|Tests|Unit tests or other written forms of tests.|
   |9|Notes|General notes.|
 
