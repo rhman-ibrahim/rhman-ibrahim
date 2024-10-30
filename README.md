@@ -14,9 +14,13 @@
   
   and [Meta Back-End Developer Certificate](https://www.coursera.org/account/accomplishments/professional-cert/WRVKLVIP9XAK).
 
-- Then I’ve decided to stick with **Python/Django** and **JavaScript/React**, as I believe they offer the best solutions for my needs.
+- Then I’ve decided to stick with **Python/Django** and **JavaScript/React**,
 
-  However, I remain committed to continuously exploring, learning, and adapting to new tools and approaches.
+  as I believe they offer the best solutions for my needs.
+
+- However, I remain committed to continuously exploring, learning,
+  
+  and adapting to new tools and approaches.
 
 ## 💼 Petrichor | The Portfolio
 
@@ -24,9 +28,9 @@
 
   modular applications—each providing a foundational component of a full-stack web project.
 
-   To realize this vision, I developed **Petrichor**, an ecosystem designed to streamline development and support Django and React applications.
+- To realize this vision, I developed **Petrichor**, an ecosystem designed to streamline development and support Django and React applications.
 
-  Each application within **Petrichor** serves as a key building block,
+- Each application within **Petrichor** serves as a key building block,
   
   enabling greater focus on creating new features while ensuring essential project components are robustly managed.
 
