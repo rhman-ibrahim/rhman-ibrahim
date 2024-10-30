@@ -26,17 +26,15 @@
 
 ## 💼 Petrichor | The Portfolio
 
-- Instead of building single, scoped applications, I envisioned creating a suite of abstract,
+- I envisioned creating a suite of abstract, modular applications/component,
 
-  modular applications—each providing a foundational component of a full-stack web project.
+  each provides a separate, complete functionality.
 
-- To realize this vision, I developed **Petrichor**, an ecosystem designed to streamline development,
+- To realize, I developed **Petrichor**, an ecosystem designed to streamline development,
 
-  as that each application within **Petrichor** serves as a key building block.
+  as that each part within serves as a key building block.
   
-- Enabling greater focus on creating new features and ensuring essential
-  
-  project components are robustly managed.
+- Enabling greater focus on creating new features.
 
   |Repository|Label|Description|DOCS|
   |--|--|--|--|
