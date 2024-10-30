@@ -6,9 +6,9 @@
 
 - Sensing the reliability and accessibility of web solutions, sparked my passion
 
-  for development and automation, inspiring me to shift my caree web development
+  for development and automation, inspiring me to shift my career to web
   
-  to bring my vision to life.
+  development and to bring my vision to life.
 
 - After a long journey with self-studying different languages and tools,
   
