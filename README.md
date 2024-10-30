@@ -26,9 +26,9 @@
 
 ## 💼 Petrichor | The Portfolio
 
-- I envisioned creating a suite of abstract, modular applications/component,
+- I envisioned creating a suite of abstract, modular applications/components,
 
-  each provides a separate, complete functionality.
+  each provides a separate and complete functionality.
 
 - To realize, I developed **Petrichor** as an ecosystem designed to streamline
 
@@ -48,24 +48,24 @@
 
 > Assume that we are going to develop a new project (labeled `NP`).
 
-- Starting a new full-stack web project with **Petrichor** is streamlined to include only the necessary,
-
-  since that each of `EN`, `OR` and `AC` has its separate Docker image, PIP package and NPM package.
+- **Petrichor** is streamlined to include only the necessary, since that each of `EN`,
+  
+  `OR` and `AC` has its separate Docker image, PIP package and NPM package.
 
 - ***Petrichor*** delivers a consistent look and feel across applications as each of `EN`,
   
   `OR` and `AC` UI is built with ***Schema***, which will be used to build `NP` UI too.
 
-- The table below shows the time saved if **Petrichor** is used without customizations made,
+- The table below shows the time saved by **Petrichor** without customizations made,
 
   the hours is calculated on average according to this [workflow](idea/workflow.md).
 
   |Package|Structure|Summary|Time Saved|
   |--|--|--|--|
   |P1|`EN`|Authentication.|120 Hours|
-  |P2|`EN` & `AC`|Authentication with real-time messaging and notifying.|240 Hours|
-  |P3|`EN` & `OR`|Authentication coupled with users authorization system.|240 Hours|
-  |P4|`EN`, `OR` & `AC`|Authentication, authorization system and real-time messaging and notifying.|320 Hours|
+  |P2|`EN` & `AC`|Authentication with real-time messaging.|240 Hours|
+  |P3|`EN` & `OR`|Authentication coupled with users authorization.|240 Hours|
+  |P4|`EN`, `OR` & `AC`|Authentication, authorization and real-time messaging.|320 Hours|
 
 ## 📄 Documentation
 
