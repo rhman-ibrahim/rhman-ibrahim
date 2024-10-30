@@ -1,12 +1,12 @@
 # 👌🏾 A Full Stack Web Developer
 
-- After graduating from Alexandria University in Egypt with a Bachelor's degree in Accounting,
+- After graduating from Faculty of Commerce, Alexandria University (Egypt)
 
+  with a Bachelor's degree in Accounting,
+  
   I spent a year working as a financial auditor.
 
-- My passion for development and automation inspired me to leave that role and pursue
-
-  a career in programming, focusing specifically on web development.
+- My passion for development and automation led me to shift to a career in web development.
 
 - After a long journey with self-studying different languages and tools,
   
