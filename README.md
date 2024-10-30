@@ -2,9 +2,7 @@
 
 - After graduating from Faculty of Commerce, Alexandria University (Egypt)
 
-  with a Bachelor's degree in Accounting,
-  
-  I spent a year working as a financial auditor.
+  with a Bachelor's degree in Accounting, I spent a year working as a financial auditor.
 
 - My passion for development and automation led me to shift to a career in web development.
 
