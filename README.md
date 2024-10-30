@@ -4,11 +4,11 @@
 
   with a Bachelor's degree in Accounting, I've worked as a financial auditor.
 
-- Seeing the reliability and accessibility of web solutions—compatible across devices
+- Sensing the reliability and accessibility of web solutions, sparked my passion
 
-  and usable without installation—sparked my passion for development and automation.
+  for development and automation, inspiring me to shift my caree web development
   
-  This inspiration led me to make a career shift into web development to bring my vision to life.
+  to bring my vision to life.
 
 - After a long journey with self-studying different languages and tools,
   
