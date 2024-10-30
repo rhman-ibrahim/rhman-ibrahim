@@ -30,9 +30,9 @@
 
   each provides a separate, complete functionality.
 
-- To realize, I developed **Petrichor**, an ecosystem designed to streamline development,
+- To realize, I developed **Petrichor** as an ecosystem designed to streamline
 
-  as that each part within serves as a key building block.
+  development, as that each part within serves as a key building block.
   
 - Enabling greater focus on creating new features.
 
@@ -40,7 +40,7 @@
   |--|--|--|--|
   |Assets|`AS`|Stores general style sheets (theme, reset & etc), favicons and fonts.|[Read](idea/assets.md)|
   |Schema|`SC`|Configured starting templates for new Django and React projects.|[Read](idea/schema.md)|
-  |Authen|`EN`|Manages authentication with custom modeles, and tracks the user activity.|[Read](idea/authen.md)|
+  |Authen|`EN`|Manages authentication and tracks the user activity logs.|[Read](idea/authen.md)|
   |Author|`OR`|Manages authorization with permissions and system-user groups.|[Read](idea/author.md)|
   |Accord|`AC`|Manages real-time messaging and notifying via WebSockets.|[Read](idea/accord.md)|
 
