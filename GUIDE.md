@@ -1,127 +1,100 @@
-# The Documentations Reference
-
-1. [Overview](#overview)
-2. [Structure](#structure)
-
-    - [File System](#file-system)
-    - [Index](#index)
-
-3. [Workflow](#workflow)
-4. [Guide](#guide)
-
 ## Overview
 
-This documentation serves as the central reference for all projects under the GitHub username **rhman-ibrahim** and the Petrichor project. By adhering to a consistent structure across all projects, it ensures clarity and ease of use and provides both high-level overviews and in-depth technical knowledge, catering to individuals with diverse backgrounds and expertise.
+This documentation serves as the central reference for all of my projects documentations. By adhering to a consistent structure across all projects, it ensures clarity and ease of use and provides both high-level overviews and in-depth technical knowledge, catering to individuals with diverse backgrounds and expertise.
 
 ## Structure
 
-1. ### README
+In order to cater to various levels of understanding and technical needs, I have created a two-part documentation structure **README** and **Schema** with different purposes and structures. **README** focuses on explaining the project conceptually, outlining its workflow, detailing the project structure, and providing instructions for setup and usage through the following sections: **Overview**, **Structure**, **Workflow**, and **Guide**. The **Structure** sections consists of 2 sections ***File System*** and ***Index*** each list the project directories and files differently.
 
-    Focuses on explaining the project conceptually, outlining its workflow, detailing the project structure, and providing instructions for setup and usage. It consists of the following sections and sub-sections:
+***File System*** lists the project using the [tree](https://launchpad.net/ubuntu/+source/tree) command with variations according to the project nature as: `tree --dirsfirst` to list directories before files, `tree -I "venv" --prune --dirsfirst` for Python projects and `tree -I "node_modules" --prune --dirsfirst` for JavaScript projects. While ***Index*** is a table that lists directories and files according the *tree* command ordering through this columns: ***#*** the directory/file order, ***Directory/File*** the directory/file name, ***Description*** the directory/file name role, and ***Index*** the directory/file section in **Schema**.
 
-    1. Overview
-    2. Structure
-        - File System
-        - Index
-    3. Workflow
-    4. Guide
+|section|Description|Order|
+|--|--|--|--|
+|Overview|A short paragraph describing the project as an idea and the purpose behind it, or the problem it addresses.|1|
+|Structure|Explains how the project's files are organized, it provides detailed descriptions for each directory and file.|2|
+|File System|The output of the tree command that displays an indented directory tree of the project's files.|2.1|
+|Index|A table listing the project directory and files according to tree command ordering.|2.2|
+|Workflow|Explains the project conceptually as a story.|3|
+|Guide|Acts as footnotes|4|
 
-2. ### Schema
+## README Notes
 
-    Offers an in-depth explanation of each module, discussing their functionalities and relationships in detail. Its sections vary based on the project's nature, but their links must always be provided in the [README](#readme) Structure/Index.
+- Use the template below to create a **README**
+- All sections must be included. If a section is not required, replace its content with a blockquote declaring this message: This section is not applicable to this project.
+  
+```md
+# PROJECT_NAME
+
+    1. [Overview](#overview)
+    2. [Structure](#structure)
+
+        - [File System](#file-system)
+        - [Index](#index)
+
+    3. [Workflow](#workflow)
+    4. [Guide](#guide)
+
+## Overview
+
+`REPLACE_ME_WITH_OVERVIEW_CONTENT`
+
+> Reviewing this [document](https://github.com/rhman-ibrahim/rhman-ibrahim/wiki/Documentation-Guide) may help with understanding and navigating through this document easily.
+
+## Structure
+
+### File System
+
+`REPLACE_ME_WITH_FILE_SYSTEM_CONTENT`
+
+### Index
+
+`REPLACE_ME_WITH_INDEX_CONTENT`
 
 ## Workflow
 
-1. ### The Overview Section
-
-    The overview is a short paragraph describing the project as an idea and the purpose behind it, or the problem it addresses.
-
-2. ### The Structure Section
-
-    The structure section explains how the project's files are organized. It provides detailed descriptions for each directory and file. This section includes two parts: ***File System*** and ***Index***.
-
-   - #### File System
-
-        The file system is the output of the [`tree`](https://launchpad.net/ubuntu/+source/tree) command that displays an indented directory tree of the project's files.
-
-        **Example:**
-
-        ```bash
-        .
-        ├── directory1/
-        │   ├── directory2/
-        │   │   ├── file1.extension1
-        │   │   ├── file2.extension2
-        │   ├── file3.extension3
-        ├── directory3/
-        │   ├── file4.extension3
-        └── file5.extension4
-        ```
-
-   - #### Index
-
-        The index is a table with the following columns: *#: the order in the project's file system*, *File/Directory: the directory/file name*, *Description: the role of the directory/file*, and *Index: the order of the file in the **Schema**'s documentation*.
-
-        **Example:**
-
-        |#|Directory/File|Description|Index|
-        |----|----|----|----|
-        |01|directory1/|*Contains files and subdirectories for module 1.* | 1      |
-        |02|directory1/directory2/|*Subdirectory within directory1 containing files related to functionality A.*|1.1|
-        |03|directory1/directory2/file1.extension1|*File for functionality A1.*|1.1.1|
-        |04|directory1/directory2/file2.extension2|*File for functionality A2.*|1.1.2|
-        |05|directory1/file3.extension3|*Main configuration file for module 1.*|1.2|
-        |06|directory3/|*Contains files related to module 2.*|2|
-        |07|directory3/file4.extension3|*File for functionality B.*|2.1|
-        |08|file5.extension4|*Standalone file for functionality C.*|3|
-
-3. ### The Workflow Section
-
-    The workflow is an extended explanation of how the project works as a story.
-
-    **Example:**
-
-    > This application begins by authenticating the user. After login, users can upload files, which are stored securely in the cloud. These files can be organized into folders for easy management.
-
-4. ### The Guide Section
-
-    The guide consists of multiple custom sections depending on the documentation needs. Each must have a proper heading.
+`REPLACE_ME_WITH_WORKFLOW_CONTENT`
 
 ## Guide
 
-1. ### Mentioning the reference
+`REPLACE_ME_WITH_GUIDE_CONTENT`
 
-    This documentation has to be mentioned as a reference in each documentation following it as a blockquote paragraph in the [overview](#overview) section.
+```
 
-    Blockquote message:
+### Index Table Notes
 
-    ```Reviewing this [document](https://github.com/rhman-ibrahim/rhman-ibrahim/blob/main/CONTRIBUTING.md) may help with understanding and navigating through this document easily.```
+- The *Directory/File* column values must be formatted as links that navigate to the corresponding section in **Schema**, as `[module-name](Schema.md#1234)` if its index is `1.2.3.4`
+- Directories' names must end with a `/`, while file names must end with their extension.
+- Even if the directory has a single file, each of the directory and the file must have a row in the table.
 
-2. ### If there is no need for a certain section
+## Schema Notes
 
-    All sections must be included. If a section is not required, replace its content with a blockquote declaring this message:  
-    **This section is not applicable to this project.**
+- Use the template below to create a **SCHEMA**
+- **Schema** sections must be in order and its respecting heading nesting.
+- Replace these ***PROJECT_NAME*** and ***PROJECT_NAME_REPOSITORY_LINK*** with their actual values.
 
-3. ### Index Table Notes
+```md
+# PROJECT_NAME
 
-    - The *Directory/File* column values must be formatted as links that navigate to the corresponding section in [Schema](Schema.md), as `[module-name](Schema.md#-1234---module-title)` if its index is `1.2.3.4`
-    - Directories' names must end with a `/`, while file names must end with their extension.
-    - Even if the directory has a single file, each of the directory and the file must have a row in the table.
+This is the Schema of [PROJECT_NAME](PROJECT_NAME_REPOSITORY_LINK) please review the **README** first before reading the Schema.
 
-4. ### The Schema Documentation
+## 1
 
-    While its sections vary according to the project's nature, they must be indexed as the index column states. ***Following the [workflow](#the-workflow-section)*** table, heading levels must match the nesting depth in the file system.
+### 1.2
 
-    **Example:**
+#### 1.2.1
 
-    ```md
-    # Project's Name
-    ## 1 - Directory1
-    ### 1.1 - Directory2
-    #### 1.1.1 - File1 (File1.extension1)
-    #### 1.1.2 - File2 (File2.extension2)
-    ### 1.2 - File3 (File3.extension3)
-    ## 2 - Directory3
-    ### 2.1 - File4 (File4.extension3)
-    ## 3 - File5 (File5.extension4)
-    ```
+#### 1.2.2
+
+# 2
+
+# 3
+
+## 3.1
+
+## 3.2
+
+# 4
+
+# 5
+
+```
