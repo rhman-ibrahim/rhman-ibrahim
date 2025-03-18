@@ -50,6 +50,8 @@ Tech: Python, Django, SentenceTransformers, FAISSA standalone API for Markdown-b
 
 ## Vision & Goals
 
+ Contributing into the process of ideas transformation to applications through web development, working with different people from different places and backgrounds, shared experience and knowledge. 
+
 ## Let's Connect
 
 > Special thanks 🙏🏾 for [Skill Icons DEV](https://skillicons.dev)!, for making these awesome icons
