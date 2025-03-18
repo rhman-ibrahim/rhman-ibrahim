@@ -18,7 +18,7 @@
 
 #### Anchor
 
-Tech: React, Vike, TailwindCSSAnchor transforms traditional Business Model Canvas (BMC) into an interactive, multilingual landing page. It translates each BMC section into dynamic React components, offering a fully responsive and engaging experience.
+Tech: React and Vike transforms traditional Business Model Canvas (BMC) into an interactive, multilingual landing page. It translates each BMC section into dynamic React components, offering a fully responsive and engaging experience.
 
 ### Identity API
 
@@ -34,7 +34,7 @@ Tech: Django, Django Channels, WebSocketsA real-time messaging API that enables 
 
 #### Schema
 
-Tech: React, Vite, and CSS fmanaging components, modals, panels, drawers, forms, and notifications. Includes customizable themes and a structured approach to UI development.
+Tech: React and Vite managing components, modals, panels, drawers, forms, and notifications. Includes customizable themes and a structured approach to UI development.
 
 ### Semantic AI
 
