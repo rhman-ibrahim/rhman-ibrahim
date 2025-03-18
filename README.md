@@ -1,5 +1,7 @@
 # Introduction
 
+I'm a full-stack developer specializing in Django & React. I build scalable web applications and landing pages, and AI-driven tools. Passionate about transformation with clean architecture and performance optimization.
+
 ## Tech Stack
 
 [![Front-end](https://skillicons.dev/icons?i=html,css,js,vite,react)](https://skillicons.dev)
