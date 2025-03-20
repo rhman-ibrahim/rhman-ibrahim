@@ -2,6 +2,10 @@
 
 I'm a full-stack developer specializing in Django/DRF and React. I design and develop APIs, web applications, landing pages, and AI-driven tools. Passionate about turning ideas into scalable, high-performance solutions with clean architecture and optimized performance.
 
+- [Vision](#vision--goals)
+- [Projects](#projects) / [What I'm currently doing?](#currently-working-on)
+- [Let's Connect!](#lets-connect)
+
 ## Stack
 
 I believe in a decoupled architecture where the back-end and front-end operate independently, connected through well-structured APIs. This approach enhances scalability, maintainability, and flexibility, allowing each layer to evolve without constraints. By keeping concerns separate, I ensure cleaner code, better performance, and a smoother development workflow.
@@ -66,3 +70,28 @@ This project is deeply personal to me. Violin has been a passion of mine since c
 #### 6. Query
 
 I document everything—not just code, but my thought process, decisions, and patterns. Query is my solution to making documentation more interactive and useful. It’s an AI-powered Markdown-based API documentation Q&A system, using semantic search with embeddings to provide relevant, conversational answers. For me, solid documentation isn’t just a habit—it’s a way to truly understand and refine my work.
+
+## Vision & Goals
+
+I see web development as a way to build structured, scalable, and efficient systems that solve real problems. My goal is to create tools that simplify development, accelerate workflows, and enhance user experiences—all while keeping things modular, minimal, and maintainable.
+
+I strongly believe in decoupled architectures that allow each part of a system to evolve independently. Whether it’s authentication, UI components, or AI-driven tools, my focus is on designing systems that last—not just quick fixes, but solutions that adapt and scale over time.
+
+Long-term, I want to push the boundaries of what’s possible with web-based applications. The web is the most accessible platform, and with the power of APIs, background tasks, real-time communication, and even AI, it can now do what native applications once did—without compromising quality or performance. My projects reflect this belief, and I aim to keep refining and expanding on them.
+
+## Currently Working On
+
+> This section will always list the next four things I have on my to-do list. As I complete tasks and move forward, I’ll keep it updated with what’s next.
+
+1. Finalizing & publishing my portfolio and personal website.
+2. Refining my authentication and messaging APIs.
+3. Enhancing Query – Making documentation more accessible and interactive with semantic search.
+4. Developing Sottile – Advancing its AI-powered feedback system to make it a real asset for musicians.
+
+## Let’s Connect
+
+> I’m always open to connecting with like-minded people—developers, startups, and anyone passionate about tech. If you’re interested in discussing ideas, collaborations, or just sharing insights, feel free to reach out!
+
+- [Twitter / X](https://x.com/Rhman_Al_Warraq)
+- [LinkedIn](https://www.linkedin.com/in/rhman-ibrahim-88a546247/)
+- [Website – ***Soon!***](https://github.com/rhman-ibrahim/rhman-ibrahim)
