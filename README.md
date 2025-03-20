@@ -81,7 +81,7 @@ Long-term, I want to push the boundaries of what’s possible with web-based app
 
 ## Currently Working On
 
-> I track my active work using this GitHub Project, where I organize tasks into To-Do, In Progress, and Done columns. This [***project***](https://github.com/users/rhman-ibrahim/projects/6) is continuously updated, reflecting what I’m actively working on and what’s been completed.
+> I track my active work using this GitHub Project, where I organize tasks into To-Do, In Progress, Done and Tested columns. This [***project***](https://github.com/users/rhman-ibrahim/projects/6) is continuously updated, reflecting what I’m actively working on and what’s been completed.
 
 ## Let’s Connect
 
