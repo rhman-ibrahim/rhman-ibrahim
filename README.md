@@ -1,9 +1,9 @@
 # Introduction
 
-I'm a full-stack developer specializing in Django/DRF and React. I design and develop APIs, web applications, landing pages, and AI-driven tools. Passionate about turning ideas into scalable, high-performance solutions with clean architecture and optimized performance.
+I'm an autodidact full-stack developer specializing in Django/DRF and React. I design and develop APIs, web applications, landing pages, and AI-driven tools. Passionate about turning ideas into scalable, high-performance solutions with clean architecture and optimized performance.
 
 - [Vision](#vision--goals)
-- [Projects](#projects) / [What I'm currently doing?](#currently-working-on)
+- [Projects](#projects) / [What I'm currently doing?](https://github.com/users/rhman-ibrahim/projects/6)
 - [Let's Connect!](#lets-connect)
 
 ## Stack
