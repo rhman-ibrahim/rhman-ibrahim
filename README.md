@@ -81,12 +81,7 @@ Long-term, I want to push the boundaries of what’s possible with web-based app
 
 ## Currently Working On
 
-> This section will always list the next four things I have on my to-do list. As I complete tasks and move forward, I’ll keep it updated with what’s next.
-
-1. Finalizing & publishing my portfolio and personal website.
-2. Refining my authentication and messaging APIs.
-3. Enhancing Query – Making documentation more accessible and interactive with semantic search.
-4. Developing Sottile – Advancing its AI-powered feedback system to make it a real asset for musicians.
+> I track my active work using this GitHub Project, where I organize tasks into To-Do, In Progress, and Done columns. This [***project***](https://github.com/users/rhman-ibrahim/projects/6) is continuously updated, reflecting what I’m actively working on and what’s been completed.
 
 ## Let’s Connect
 
