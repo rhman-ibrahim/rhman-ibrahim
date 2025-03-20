@@ -69,7 +69,7 @@ This project is deeply personal to me. Violin has been a passion of mine since c
 
 #### 6. Query
 
-I document everything—not just code, but my thought process, decisions, and patterns. Query is my solution to making documentation more interactive and useful. It’s an AI-powered Markdown-based API documentation Q&A system, using semantic search with embeddings to provide relevant, conversational answers. For me, solid documentation isn’t just a habit—it’s a way to truly understand and refine my work.
+I document everything—not just code, but my thought process, decisions, and patterns. Query is my solution to making documentation more interactive and useful. It’s an AI-powered Markdown-based API documentation Q&A system, using semantic search with embeddings to provide relevant, conversational answers. For me, solid documentation isn’t just a habit—it’s a way to truly understand and refine my work. ***You can check out my Documentation [Structure](https://github.com/rhman-ibrahim/rhman-ibrahim/wiki) for details on how I document my projects.***
 
 ## Vision & Goals
 
