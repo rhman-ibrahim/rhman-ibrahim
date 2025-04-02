@@ -33,15 +33,11 @@ I’ve always been passionate about building things that are not just functional
 
 ### Layers UI
 
-> Streamlining web app development with simple, reusable components that integrate seamlessly into any system.
+> Streamlining web app development with simple, reusable components that integrate seamlessly into any system. & Empowering businesses and individuals to create stunning, responsive landing pages that tell their stories effectively.
 
 #### 1. Schema
 
 Building a web app should be about solving problems, not reinventing the UI every time. Schema provides reusable modals, panels, drawers, and form components, while managing layout, themes, and notifications through context providers. It’s designed to let me—and anyone else—focus on logic rather than UI repetition.
-
-### Brochure UI
-
-> Empowering businesses and individuals to create stunning, responsive landing pages that tell their stories effectively.
 
 #### 2. Anchor
 
