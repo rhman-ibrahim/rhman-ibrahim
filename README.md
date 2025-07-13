@@ -24,8 +24,8 @@ I believe in a decoupled architecture where the back-end and front-end operate i
 - HTML & CSS
 - JavaScript
 - React
-- Vite (For CSR)
-- Vike (For SSG and SSR)
+- Vite
+- Mext
 
 ## Projects
 
