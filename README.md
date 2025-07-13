@@ -25,7 +25,7 @@ I believe in a decoupled architecture where the back-end and front-end operate i
 - JavaScript
 - React
 - Vite
-- Mext
+- Next
 
 ## Projects
 
