@@ -2,6 +2,8 @@
 
 Welcome to my development hub. This repository is the central place where I organize, track, and showcase my projects as I work toward building a complete ecosystem of modern applications.
 
+[Wiki](https://github.com/rhman-ibrahim/rhman-ibrahim/wiki) | [Tasks](https://github.com/users/rhman-ibrahim/projects/8)
+
 ---
 
 ## 1. Who Am I
