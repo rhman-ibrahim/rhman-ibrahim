@@ -72,7 +72,8 @@ ECom is a production-ready e-commerce platform that manages products, carts, che
 ---
 
 ## 4. Project (Tasks)
-This project board tracks the progress of all my repositories in a single place. It helps me stay consistent, break down large goals into manageable steps, and maintain a clear view of what’s ahead. The board is organized into energetic, action-oriented stages, reflecting how tasks move from ideas to completion. Each card represents a specific, testable step in building my ecosystem of applications.
+
+This project [board](https://github.com/users/rhman-ibrahim/projects/8) tracks the progress of all my repositories in a single place. It helps me stay consistent, break down large goals into manageable steps, and maintain a clear view of what’s ahead. The board is organized into energetic, action-oriented stages, reflecting how tasks move from ideas to completion. Each card represents a specific, testable step in building my ecosystem of applications.
 
 ### Columns
 
@@ -85,7 +86,7 @@ This project board tracks the progress of all my repositories in a single place.
 
 ### Working Rules
 
-> [Tasks](https://github.com/users/rhman-ibrahim/projects/8) must be clear, actionable, and testable before moving into “Do.”
+> Tasks must be clear, actionable, and testable before moving into “Do.”
 
 1. A task moves to ***Doing*** only when it is actively being worked on.
 2. Once complete, tasks enter ***Testing*** to confirm correctness, stability, and integration.
