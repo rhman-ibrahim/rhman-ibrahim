@@ -38,31 +38,44 @@ GitHub is my central platform for version control and collaboration. Beyond repo
 
 ---
 
+
+[![OS](https://skillicons.dev/icons?i=linux,bash,ubuntu)](https://skillicons.dev)
+
+[![Base](https://skillicons.dev/icons?i=html,css,js,python)](https://skillicons.dev)
+
+[![API](https://skillicons.dev/icons?i=django,postgres,redis)](https://skillicons.dev)
+
+[![UI](https://skillicons.dev/icons?i=react,redux,vite,nextjs)](https://skillicons.dev)
+
+[![DevOps](https://skillicons.dev/icons?i=docker,github)](https://skillicons.dev)
+
+---
+
 ## 3. Projects (Repositories)
 > Each project has an API (backend) and a UI (frontend).  
 
-### Identity (Authentication)
+### 1. Identity (Authentication)
 
 Identity is a modern authentication system built with Django/DRF and React. It secures applications with JWT, while supporting refresh token blacklisting for added safety. Roles and groups provide structured access, and recovery keys ensure account reliability. With clear documentation and an API-first approach, Identity is designed to integrate seamlessly into other projects, serving as the ecosystem’s foundation for trust and security.
 
 - [API](https://github.com/rhman-ibrahim/Identity)
 - [UI](https://github.com/rhman-ibrahim/IdentityUI)
 
-### HarborFlow
+### 2. HarborFlow
 
 HarborFlow is a logistics and operations management system designed for shipping lines. It streamlines daily workflows, from container tracking to scheduling and operator coordination. By combining domain expertise with practical development, HarborFlow simplifies complex processes while ensuring accuracy and reliability. Built on a scalable Django and React stack, it offers shipping companies a clear, modern tool to manage operations effectively in a demanding industry.
 
 - [API](https://github.com/rhman-ibrahim/HarborFlow)
 - [UI](https://github.com/rhman-ibrahim/HarborFlowUI)
 
-### Chat
+### 3. Chat
 
 Chat is a real-time messaging application that integrates directly with Identity to extend the ecosystem. It provides secure communication between users, with instant updates powered by WebSockets. Designed to support both private and group conversations, it emphasizes reliability and performance. With clean UI and robust backend, Chat enhances collaboration and connects seamlessly with other applications, building a unified experience across the entire development ecosystem.
 
 - [API](https://github.com/rhman-ibrahim/Chat)
 - [UI](https://github.com/rhman-ibrahim/ChatUI)
 
-### ECom
+### 4. ECom
 
 ECom is a production-ready e-commerce platform that manages products, carts, checkout, and payments with efficiency. Built on Django/DRF for backend reliability and React for user experience, it provides a complete shopping system from inventory to orders. Payment gateways and order tracking create a polished experience for users, while a modular design makes it adaptable for growth, integrations, and real business needs.
 
