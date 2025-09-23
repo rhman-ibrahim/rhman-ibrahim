@@ -75,9 +75,9 @@ ECom is a production-ready e-commerce platform that manages products, carts, che
 
 To manage progress across all projects, I use a Kanban-style workflow on GitHub Projects. This structure provides clarity, focus, and momentum by breaking down work into actionable stages. Each column represents a distinct state in the lifecycle of a task, from initial idea to final completion. By moving tasks step by step, I can visualize progress, prioritize effectively, and ensure nothing is overlooked.
 
-1. Backlog – a pool of ideas and unprioritized tasks waiting for future consideration.
-2. Do – tasks that are selected from the backlog and ready to be started next.
-3. Doing – tasks currently in progress and actively being worked on.
-4. Testing – tasks that are finished but undergoing review or validation.
-5. Done – tasks successfully completed and confirmed as finished.
-6. Archived – tasks that are either outdated or stored away for reference.
+1. ***Backlog***: A pool of ideas and unprioritized tasks waiting for future consideration.
+2. ***Do***: Tasks that are selected from the backlog and ready to be started next.
+3. ***Doing***: Tasks currently in progress and actively being worked on.
+4. ***Testing***: Tasks that are finished but undergoing review or validation.
+5. ***Done***: Tasks successfully completed and confirmed as finished.
+6. ***Archived***: Tasks that are either outdated or stored away for reference.
