@@ -8,6 +8,8 @@ Welcome to my development hub. This repository is the central place where I orga
 
 I am a dedicated full-stack developer, driven by the idea of creating software that is both meaningful and reliable. My background is rooted in ***Django*** and ***React***, where I’ve learned to value clarity, performance, and the craft of building applications that scale. I’ve set a personal challenge to build and complete five cornerstone projects that reflect my skills, discipline, and vision. This journey is not just about writing code; it is about establishing a foundation I can stand on—whether launching products, collaborating with teams, or pursuing opportunities in the tech industry. I believe in steady growth, practical learning, and creating solutions that serve real needs.
 
+[![X](https://skillicons.dev/icons?i=twitter)](https://x.com/Rhman_Al_Warraq)
+
 ---
 
 ## 2. Tech Stack
@@ -35,9 +37,6 @@ Docker ensures consistency across development and deployment by containerizing a
 ### GitHub
 
 GitHub is my central platform for version control and collaboration. Beyond repositories and issues, I rely on GitHub Actions to automate testing, deployment, and CI/CD pipelines, ensuring consistent quality and faster delivery.
-
----
-
 
 [![OS](https://skillicons.dev/icons?i=linux,bash,ubuntu)](https://skillicons.dev)
 
