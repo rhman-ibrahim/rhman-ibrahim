@@ -72,8 +72,9 @@ ECom is a production-ready e-commerce platform that manages products, carts, che
 ---
 
 ## 4. Project (Tasks)
+This project board tracks the progress of all my repositories in a single place. It helps me stay consistent, break down large goals into manageable steps, and maintain a clear view of what’s ahead. The board is organized into energetic, action-oriented stages, reflecting how tasks move from ideas to completion. Each card represents a specific, testable step in building my ecosystem of applications.
 
-To manage progress across all projects, I use a Kanban-style workflow on GitHub Projects. This structure provides clarity, focus, and momentum by breaking down work into actionable stages. Each column represents a distinct state in the lifecycle of a task, from initial idea to final completion. By moving tasks step by step, I can visualize progress, prioritize effectively, and ensure nothing is overlooked.
+### Columns
 
 1. ***Backlog***: A pool of ideas and unprioritized tasks waiting for future consideration.
 2. ***Do***: Tasks that are selected from the backlog and ready to be started next.
@@ -81,3 +82,25 @@ To manage progress across all projects, I use a Kanban-style workflow on GitHub 
 4. ***Testing***: Tasks that are finished but undergoing review or validation.
 5. ***Done***: Tasks successfully completed and confirmed as finished.
 6. ***Archived***: Tasks that are either outdated or stored away for reference.
+
+### Working Rules
+
+> All issues are created and tracked in the [rhman-ibrahim](https://github.com/rhman-ibrahim/rhman-ibrahim/issues) repository; project repositories only hold code.
+
+> Tasks must be clear, actionable, and testable before moving into “Do.”
+
+1. A task moves to ***Doing*** only when it is actively being worked on.
+2. Once complete, tasks enter ***Testing*** to confirm correctness, stability, and integration.
+3. After successful testing, tasks move to ***Done*** and may later be ***Archived*** for record-keeping.
+4. New tasks are added to the ***Backlog*** first, then promoted when ready.
+5. New tasks are added to the ***Backlog*** in batches of 4 at a time; when 4 tasks are completed, the next 4 are planned and added.
+6. To stay focused and avoid overload, column limits are enforced: **Backlog (16 tasks)**, **Do (8 tasks)**, **Doing (4 tasks)** and **Testing (2 tasks)**.
+
+### Task Properties
+
+1. ***Project***: identifies which of the five main applications the task belongs to (Identity, HarborFlow, Chat, ECom, Portal).
+2. ***End Date***: deadline for completing the task.
+3. ***Priority***: urgency of the task: **C** (Critical), **H** (High), **V** (Valuable/Medium) and **N** (Nice-to-have).
+4. ***Status***: the current Kanban column (Backlog → Do → Doing → Testing → Done → Archived).
+5. ***Size***: effort measured in 40-minute units: **XS** ≤ 1 unit (40 mins), **S** takes 1 to 2 units (40–80 mins), **M** takes 2 to 4 units (80–160 mins) and **L** > 4 units (160+ mins).
+6. ***Sub-Issues Progress***: tracks how many smaller sub-tasks within the main issue are completed, shown as a fraction or progress bar (e.g., 2/5 done).
