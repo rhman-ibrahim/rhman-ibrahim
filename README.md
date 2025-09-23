@@ -85,9 +85,7 @@ This project board tracks the progress of all my repositories in a single place.
 
 ### Working Rules
 
-> All issues are created and tracked in the [rhman-ibrahim](https://github.com/rhman-ibrahim/rhman-ibrahim/issues) repository; project repositories only hold code.
-
-> Tasks must be clear, actionable, and testable before moving into “Do.”
+> [Tasks](https://github.com/users/rhman-ibrahim/projects/8) must be clear, actionable, and testable before moving into “Do.”
 
 1. A task moves to ***Doing*** only when it is actively being worked on.
 2. Once complete, tasks enter ***Testing*** to confirm correctness, stability, and integration.
