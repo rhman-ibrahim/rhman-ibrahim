@@ -75,7 +75,7 @@ Chat is a real-time messaging application that integrates directly with Identity
 
 - [API](https://github.com/rhman-ibrahim/rhman-ibrahim/wiki/Chat)
 - [UI](https://github.com/rhman-ibrahim/rhman-ibrahim/wiki/Chat-UI)
-- 
+
 ### 4. ECom
 
 ECom is a production-ready e-commerce platform that manages products, carts, checkout, and payments with efficiency. Built on Django/DRF for backend reliability and React for user experience, it provides a complete shopping system from inventory to orders. Payment gateways and order tracking create a polished experience for users, while a modular design makes it adaptable for growth, integrations, and real business needs.
