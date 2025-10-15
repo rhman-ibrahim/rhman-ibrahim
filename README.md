@@ -7,13 +7,10 @@
 
 ## 1. Who Am I
 
-I am a dedicated full-stack developer driven by the idea of creating software that is both **meaningful** and **reliable**.  
+I am a dedicated full-stack developer driven by the idea of creating software that is both **meaningful** and **reliable**.
 My foundation is built on **Django** and **React**, where I’ve learned to value clarity, performance, and the craft of building systems that scale.
 
-> I’ve set myself a challenge — to build and complete four cornerstone projects that reflect my skills, discipline, and vision.
-
-This journey isn’t only about writing code; it’s about **establishing a foundation** I can stand on, whether launching products, collaborating with teams, or pursuing opportunities in the tech industry.  
-I believe in steady growth, practical learning, and creating solutions that serve real needs.
+> I’ve set myself a challenge — to build and complete four cornerstone projects that reflect my skills, discipline, and vision. This journey isn’t only about writing code; it’s about **establishing a foundation** I can stand on, whether launching products, collaborating with teams, or pursuing opportunities in the tech industry. I believe in steady growth, practical learning, and creating solutions that serve real needs.
 
 [![X](https://skillicons.dev/icons?i=twitter)](https://x.com/Rhman_Al_Warraq)
 
@@ -23,8 +20,7 @@ I believe in steady growth, practical learning, and creating solutions that serv
 
 ### Django & DRF
 
-Django provides a stable, secure foundation for building applications, while Django REST Framework adds the flexibility to design APIs that scale.  
-Together, they offer structure, clarity, and reliability in backend development.
+Django provides a stable, secure foundation for building applications, while Django REST Framework adds the flexibility to design APIs that scale. Together, they offer structure, clarity, and reliability in backend development.
 
 [![back-end](https://skillicons.dev/icons?i=python,django)](https://skillicons.dev)
 
@@ -72,8 +68,7 @@ Recovery keys ensure account reliability, and the system is designed API-first f
 ### 2. HarborFlow - Logistics
 
 [**HarborFlow**](https://github.com/rhman-ibrahim/rhman-ibrahim/wiki/HarborFlow) is a logistics and operations management system designed for shipping lines.  
-It streamlines workflows like container tracking, scheduling, and operator coordination.  
-By combining domain expertise with practical design, HarborFlow simplifies complexity while maintaining accuracy and reliability — offering a modern, scalable tool for shipping operations.
+It streamlines workflows like container tracking, scheduling, and operator coordination. By combining domain expertise with practical design, HarborFlow simplifies complexity while maintaining accuracy and reliability — offering a modern, scalable tool for shipping operations.
 
 ### 3. Chat - Real-Time Communication
 
@@ -91,8 +86,7 @@ Built on Django/DRF for backend reliability and React for user experience, it de
 ### 5. Landing Pages - Presentation Layer
 
 My landing pages are built with **Next.js**, designed to deliver performance, responsiveness, and search engine visibility.  
-Each is a component-based page that presents a project’s business model through clear, essential sections — **Home**, **About**, **Propositions** (Products or Services), **Features**, **Pricing**, and **Support**.  
-I focus heavily on **SEO optimization**, **PWA readiness**, and a **responsive design** philosophy that ensures every visitor, on any device, experiences the brand consistently and smoothly.
+Each is a component-based page that presents a project’s business model through clear, essential sections, I focus heavily on **SEO optimization**, **PWA readiness**, and a **responsive design** philosophy that ensures every visitor, on any device, experiences the brand consistently and smoothly.
 
 > These landing pages are crafted and maintained under **[Web256Studio](https://github.com/Web256Studio)** — my dedicated space for refining visual identity and first impressions across projects.
 
@@ -100,10 +94,6 @@ I focus heavily on **SEO optimization**, **PWA readiness**, and a **responsive d
 
 ## 4. What Am I Aiming For
 
-I’m passionate about **automation and transformation** — finding ways to make systems, workflows, and even everyday operations smarter and more efficient.  
-My goal is to build tools that **empower everyone**, from large organizations to the smallest independent seller, with reliable and accessible technology.
-
-My current work focuses on building **practical, real-world solutions** that improve how people and businesses operate — especially in environments where digital transformation is still emerging.  
-Every project I take on aims to simplify complexity, enhance communication, and create systems that truly serve their users.
+I’m passionate about **automation** and **transformation**, finding ways to make systems, workflows, and even everyday operations smarter and more efficient. My goal is to build tools that **empower everyone**, from large organizations to the smallest independent seller, with reliable and accessible technology.
 
 > One concrete vision I’m pursuing is to deliver tailored digital solutions to ***36*** clients in Alexandria. This number isn’t random — it matches the number of tram stations in my city. The tram is the oldest form of transportation in Alexandria, Egypt, and Africa as a whole; reaching this milestone would symbolize achieving **full coverage of Alexandria** through the software solutions I create.
