@@ -62,8 +62,7 @@ Beyond repositories and issues, I rely on GitHub Actions to automate testing, de
 ### 1. Identity - Authentication  
 
 [**Identity**](https://github.com/rhman-ibrahim/rhman-ibrahim/wiki/Identity) is a modern authentication system built with Django/DRF and React.  
-It secures applications with JWT, supports refresh token blacklisting, and provides structured access through roles and groups.  
-Recovery keys ensure account reliability, and the system is designed API-first for seamless integration with other projects — forming the ecosystem’s foundation for trust and security.
+It secures applications with JWT, supports refresh token blacklisting, and provides structured access through roles and groups. Recovery keys ensure account reliability, and the system is designed API-first for seamless integration with other projects — forming the ecosystem’s foundation for trust and security.
 
 ### 2. HarborFlow - Logistics
 
