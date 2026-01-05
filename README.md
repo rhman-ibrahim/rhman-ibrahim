@@ -11,6 +11,7 @@
 
 I am a dedicated full-stack developer driven by the idea of creating software that is both **meaningful** and **reliable**.  
 My foundation is built on **Django** and **React**, where I’ve learned to value clarity, performance, and the craft of building systems that scale.
+Visit my [personal website](https://rhman.netlify.app).
 
 > I’ve set myself a challenge — to build and complete **four cornerstone projects** that reflect my skills, discipline, and vision.
 
