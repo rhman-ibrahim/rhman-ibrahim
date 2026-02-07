@@ -78,21 +78,7 @@ Recovery keys ensure account reliability, and the system is designed API-first f
 It streamlines workflows such as container tracking, scheduling, and operator coordination.  
 By combining domain expertise with practical design, HarborFlow simplifies complexity while maintaining accuracy and reliability — offering a modern, scalable tool for shipping operations.
 
-### 3. Chat – Real-Time Communication
-
-[**Chat**](https://github.com/rhman-ibrahim/rhman-ibrahim/wiki/Chat) is a real-time messaging application that extends directly from Identity.  
-It provides secure, instant communication between users using WebSockets, supporting both private and group chats.  
-With a clean UI and robust backend, Chat enhances collaboration and connects seamlessly across the entire ecosystem.
-
-### 4. ECom – E-Commerce Platform
-
-[**ECom**](https://github.com/rhman-ibrahim/rhman-ibrahim/wiki/ECom) is a production-ready e-commerce system managing products, carts, checkout, and payments with efficiency.  
-Built on Django/DRF for backend reliability and React for user experience, it delivers a complete shopping workflow with payment gateways, order tracking, and modular architecture adaptable for real-world growth.
-
-> [Identity](#1-identity---authentication), [HarborFlow](#2-harborflow---logistics), [Chat](#3-chat---real-time-communication), and [ECom](#4-ecom---e-commerce-platform) are **Django APIs** hosted under my personal account.  
-> Their corresponding **user interfaces (UIs)** are developed and maintained under **[Web256Bridge](https://github.com/Web256Bridge)** — my dedicated space focused on building, optimizing, and managing front-end applications that connect directly to these APIs.
-
-### 5. Landing Pages – Presentation Layer
+### 3. Landing Pages – Presentation Layer
 
 My landing pages are built with **Next.js**, designed to deliver performance, responsiveness, and search engine visibility.  
 Each is a component-based page that presents a project’s business model through clear, essential sections — **Home**, **About**, **Propositions** (Products or Services), **Features**, **Pricing**, and **Support**.  
