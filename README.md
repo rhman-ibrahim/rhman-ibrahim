@@ -48,7 +48,7 @@ It helps reduce load times, manage sessions efficiently, and improve responsiven
 React allows me to craft modern, interactive UIs with reusable components.  
 Its speed, flexibility, and vast ecosystem make it ideal for creating engaging experiences that integrate seamlessly with my APIs.
 
-[![front-end](https://skillicons.dev/icons?i=html,css,js,react,vite,redux,nextjs)](https://skillicons.dev)
+[![front-end](https://skillicons.dev/icons?i=html,css,js,astro,react,vite,redux,nextjs)](https://skillicons.dev)
 
 ### Docker
 
