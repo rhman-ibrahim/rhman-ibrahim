@@ -45,7 +45,7 @@ A foundational system for authentication and role-based access control, designed
 - Dynamically managed permissions per system needs  
 - Secure recovery mechanism through generated keys  
 - Full audit logging for system-level actions  
-- Supports throlttling
+- Supports throttling
 
 ---
 
