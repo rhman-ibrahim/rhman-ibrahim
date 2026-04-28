@@ -1,96 +1,48 @@
-# Welcome To My Development Hub!
+# Rhman
 
-- [Who Am I](#1-who-am-i)
-- [What Am I Using](#2-what-am-i-using)
-- [What Am I Doing](#3-what-am-i-doing)
-- [What Am I Aiming For](#4-what-am-i-aiming-for)
-- [Wiki](https://github.com/rhman-ibrahim/rhman-ibrahim/wiki)
----
+Self-taught developer with a business background, focused on building systems around **automation, optimization, and customization**.  
+I approach software as a tool to simplify operations and give full control over how things work.
 
-## 1. Who Am I
-
-I am a dedicated full-stack developer driven by the idea of creating software that is both **meaningful** and **reliable**.  
-My foundation is built on **Django** and **React**, where I’ve learned to value clarity, performance, and the craft of building systems that scale.
-Visit my [personal website](https://rhman.netlify.app).
-
-> I’ve set myself a challenge — to build and complete **four cornerstone projects** that reflect my skills, discipline, and vision.
-
-This journey isn’t only about writing code; it’s about **establishing a foundation** I can stand on — whether launching products, collaborating with teams, or pursuing opportunities in the tech industry.  
-I believe in steady growth, practical learning, and creating solutions that serve real needs.
-
-[![X](https://skillicons.dev/icons?i=twitter)](https://x.com/Rhman_Al_Warraq)
+I build **websites and full-stack web applications**, with a focus on clarity, reliability, and long-term usability.
 
 ---
 
-## 2. What Am I Using
+## Tools
 
-### Django & DRF
+For websites, I use **Astro** and **Next.js** to deliver fast, structured, and SEO-friendly experiences.  
 
-Django provides a stable, secure foundation for building applications, while Django REST Framework adds the flexibility to design APIs that scale.  
-Together, they offer structure, clarity, and reliability in backend development.
+For systems, I rely on:
+- **Django** for a stable, structured backend that supports clean and maintainable architecture  
+- **React (JavaScript)** for building flexible and interactive user interfaces  
 
-[![back-end](https://skillicons.dev/icons?i=python,django)](https://skillicons.dev)
-
-### PostgreSQL
-
-PostgreSQL is my choice for relational data storage due to its robustness, advanced features, and reliability in production.  
-It ensures data integrity and performs well under complex, data-driven demands.
-
-### Redis
-
-Redis offers fast, in-memory caching and lightweight data structures.  
-It helps reduce load times, manage sessions efficiently, and improve responsiveness without unnecessary complexity.
-
-[![database](https://skillicons.dev/icons?i=postgres,redis)](https://skillicons.dev)
-
-### React
-
-React allows me to craft modern, interactive UIs with reusable components.  
-Its speed, flexibility, and vast ecosystem make it ideal for creating engaging experiences that integrate seamlessly with my APIs.
-
-[![front-end](https://skillicons.dev/icons?i=html,css,js,astro,react,vite,redux,nextjs)](https://skillicons.dev)
-
-### Docker
-
-Docker ensures consistency across development and deployment by containerizing applications.  
-It eliminates environment issues, simplifies scaling, and supports efficient collaboration — making projects portable and reliable across contexts.
-
-### GitHub
-
-GitHub is my central platform for version control and collaboration.  
-Beyond repositories and issues, I rely on GitHub Actions to automate testing, deployment, and CI/CD pipelines, ensuring consistent quality and faster delivery.
-
-[![DevOps](https://skillicons.dev/icons?i=docker,github)](https://skillicons.dev)
+This combination helps me move from idea to production in a predictable and scalable way.
 
 ---
 
-## 3. What Am I Doing
+## Auth + RBAC
 
-### 1. Identity – Authentication  
+A foundational system for managing identity, access, and control across applications. It is designed to remain simple at the surface while supporting structured and flexible authorization rules underneath.
 
-[**Identity**](https://github.com/rhman-ibrahim/rhman-ibrahim/wiki/Identity) is a modern authentication system built with Django/DRF and React.  
-It secures applications with JWT, supports refresh token blacklisting, and provides structured access through roles and groups.  
-Recovery keys ensure account reliability, and the system is designed API-first for seamless integration with other projects — forming the ecosystem’s foundation for trust and security.
-
-### 2. HarborFlow – Logistics
-
-[**HarborFlow**](https://github.com/rhman-ibrahim/rhman-ibrahim/wiki/HarborFlow) is a logistics and operations management system designed for shipping lines.  
-It streamlines workflows such as container tracking, scheduling, and operator coordination.  
-By combining domain expertise with practical design, HarborFlow simplifies complexity while maintaining accuracy and reliability — offering a modern, scalable tool for shipping operations.
-
-### 3. Landing Pages – Presentation Layer
-
-My landing pages are built with **Next.js**, designed to deliver performance, responsiveness, and search engine visibility.  
-Each is a component-based page that presents a project’s business model through clear, essential sections — **Home**, **About**, **Propositions** (Products or Services), **Features**, **Pricing**, and **Support**.  
-I focus heavily on **SEO optimization**, **PWA readiness**, and a **responsive design** philosophy that ensures every visitor, on any device, experiences the brand consistently and smoothly.
-
-> These landing pages are crafted and maintained under **[Web256Studio](https://github.com/Web256Studio)** — my dedicated space for refining visual identity and first impressions across projects.
+- Stateless authentication using JWT  
+- Access and refresh token lifecycle with blacklisting support  
+- Role-based access control (RBAC) for defining permitted actions  
+- Group-based organization of users without hierarchical complexity  
+- Dynamically managed permissions per system needs  
+- Secure recovery mechanism through generated keys  
+- Full audit logging for system-level actions  
 
 ---
 
-## 4. What Am I Aiming For
+### Working on — Discussions Layer
 
-I’m passionate about **automation and transformation** — finding ways to make systems, workflows, and even everyday operations smarter and more efficient.  
-My goal is to build tools that **empower everyone**, from large organizations to the smallest independent seller, with reliable and accessible technology.
+Extending the system with a lightweight discussions feature to support collaboration and context-based communication.
 
-> One concrete vision I’m pursuing is to deliver tailored digital solutions to ***36*** clients in **Alexandria**. This number isn’t random — it matches the number of tram stations in my city. The tram is the oldest form of transportation in **Alexandria, Egypt**, and in **Africa as a whole**. Reaching this milestone would symbolize achieving **full coverage of Alexandria** through the software solutions I create.
+- Polling adapter for simple and reliable updates  
+- WebSocket adapter for real-time interaction where needed  
+- Unified abstraction layer to switch between transport modes without changing core logic  
+
+---
+
+## Next
+
+Building a **RAG (Retrieval-Augmented Generation) system** to enable querying across structured and unstructured data sources, making internal knowledge accessible through natural interaction.
