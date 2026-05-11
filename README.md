@@ -8,10 +8,10 @@ The *Web256* ecosystem is a group of multiple Github organizations, these organi
 
 I prefer treating each system as an independent project rather than combining unrelated concerns into a single repository or profile structure. Over time, this organization model also created space for conversations with developers, recruiters, founders, and people exploring early ideas who may be interested in discussing, building, or collaborating around specific systems or directions.
 
-- [Web256Bridge](https://github.com/Web256Bridge)
 - [Web256Utilities](https://github.com/Web256Utilities)
-- [Web256Portal](https://github.com/Web256Portal)
 - [Web256Studio](https://github.com/Web256Studio)
+- [Web256Bridge](https://github.com/Web256Bridge)
+- [Web256Portal](https://github.com/Web256Portal)
 
 ---
 
@@ -37,8 +37,8 @@ I prefer treating each system as an independent project rather than combining un
 
 ---
 
-[![Foundation](https://skillicons.dev/icons?i=linux,bash,html,css,js)](https://skillicons.dev)
+[![Foundation](https://skillicons.dev/icons?i=linux,bash,html,css,js,astro,next)](https://skillicons.dev)
 
-[![Back](https://skillicons.dev/icons?i=python,django,postgresql,redis)](https://skillicons.dev)
+[![Back](https://skillicons.dev/icons?i=python,django,postgresql,redis,github)](https://skillicons.dev)
 
-[![Front](https://skillicons.dev/icons?i=react,redux,aws)](https://skillicons.dev)
+[![Front](https://skillicons.dev/icons?i=react,redux,npm,aws)](https://skillicons.dev)
